@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "origins_winter_fabric:miner/mining_expertise",
+    "origins_winter_fabric:miner/ore_fortune",
+    "origins_winter_fabric:miner/pickaxe_durability",
+    "origins_winter_fabric:miner/miner_wood_debuff",
+    "origins_winter_fabric:miner/reduced_harvest",
+    "origins_winter_fabric:miner/expensive_enchanting"
+  ],
+  "icon": "minecraft:iron_pickaxe",
+  "order": 2,
+  "impact": 2,
+  "name": "Шахтер",
+  "description": "Опытный горнодобытчик, способный быстро добывать руду с повышенной эффективностью."
+}

@@ -1,0 +1,16 @@
+{
+  "type": "origins:action_on_item_use",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "tag @e[type=#minecraft:breedable_animals,distance=..8,nbt={InLove:1}] add breeding_check"
+  },
+  "item_condition": {
+    "type": "origins:food"
+  },
+  "cooldown": 1,
+  "hud_render": {
+    "should_render": false
+  },
+  "name": "Близнецы",
+  "description": "Благодаря вашему опыту животноводства, когда вы разводите животных, есть 40% шанс получить двух детенышей вместо одного."
+}

@@ -1,0 +1,95 @@
+{
+  "type": "origins:multiple",
+  "crop_break": {
+    "type": "origins:action_on_block_break",
+    "block_condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:in_tag",
+          "tag": "minecraft:crops"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:melon"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:pumpkin"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:sweet_berry_bush"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:cactus"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:sugar_cane"
+        }
+      ]
+    },
+    "entity_action": {
+      "type": "origins:chance",
+      "chance": 0.7,
+      "action": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:execute_command",
+            "command": "execute at @s run summon item ~ ~ ~ {Item:{id:\"minecraft:wheat\",Count:1b},PickupDelay:0,Tags:[\"extra_drops\"]}"
+          },
+          {
+            "type": "origins:execute_command",
+            "command": "execute at @s run data modify entity @e[type=item,tag=extra_drops,limit=1,sort=nearest] Item set from entity @e[type=item,distance=..3,limit=1,sort=nearest,tag=!extra_drops] Item"
+          },
+          {
+            "type": "origins:execute_command",
+            "command": "execute at @s run tag @e[type=item,tag=extra_drops,limit=1,sort=nearest] remove extra_drops"
+          }
+        ]
+      }
+    }
+  },
+  "bonemeal_boost": {
+    "type": "origins:modify_crafting",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:bone_meal"
+      }
+    },
+    "modifier": {
+      "operation": "multiply_base",
+      "value": 0.5
+    }
+  },
+  "better_farming": {
+    "type": "origins:modify_break_speed",
+    "block_condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:in_tag",
+          "tag": "minecraft:crops"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:farmland"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    "modifier": {
+      "operation": "multiply_base",
+      "value": 1.0
+    }
+  },
+  "name": "Мастер Фермер",
+  "description": "При сборе урожая есть 70% шанс получить дополнительные предметы, а также вы более эффективно используете костную муку и быстрее работаете с землей."
+}

@@ -1,0 +1,27 @@
+{
+  "type": "origins:action_over_time",
+  "interval": 20,
+  "entity_action": {
+    "type": "origins:if_else",
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "minecraft:pickaxes"
+        }
+      }
+    },
+    "if_action": {
+      "type": "origins:execute_command",
+      "command": "effect give @s minecraft:luck 2 0 true"
+    },
+    "else_action": {
+      "type": "origins:execute_command",
+      "command": "effect clear @s minecraft:luck"
+    }
+  },
+  "name": "Удачливый Шахтер",
+  "description": "Вы всегда имеете эффект Удачи I при добыче руды."
+}

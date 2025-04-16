@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "origins": [
+    "origins_winter_fabric:snow_elf",
+    "origins:human",
+    "origins_winter_fabric:crimson_giant",
+    "origins_winter_fabric:dwarf"
+  ]
+}

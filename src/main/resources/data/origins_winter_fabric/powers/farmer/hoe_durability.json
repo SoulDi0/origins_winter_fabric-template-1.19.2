@@ -1,0 +1,19 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "modifier": {
+    "operation": "addition",
+    "value": -0.5
+  },
+  "target_condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "tag": "minecraft:hoes"
+      }
+    }
+  },
+  "name": "Бережное Использование",
+  "description": "Ваши мотыги теряют на 50% меньше прочности при использовании."
+}

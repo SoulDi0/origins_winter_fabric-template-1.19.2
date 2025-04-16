@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "origins_winter_fabric:lumberjack/woodcutting_expertise",
+    "origins_winter_fabric:lumberjack/axe_durability",
+    "origins_winter_fabric:lumberjack/lumberjack_mining_debuff"
+  ],
+  "icon": "minecraft:iron_axe",
+  "order": 1,
+  "impact": 2,
+  "name": "Дровосек",
+  "description": "Опытный мастер рубки деревьев, способный быстро заготавливать древесину с меньшим износом инструментов."
+}

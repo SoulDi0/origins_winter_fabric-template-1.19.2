@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "origins_winter_fabric:builder/extended_reach",
+    "origins_winter_fabric:builder/extra_inventory",
+    "origins_winter_fabric:builder/building_expertise",
+    "origins_winter_fabric:builder/fall_immunity"
+  ],
+  "icon": "minecraft:scaffolding",
+  "order": 4,
+  "impact": 2,
+  "name": "Строитель",
+  "description": "Опытный мастер строительства, способный размещать блоки на большем расстоянии и переносить больше материалов."
+}

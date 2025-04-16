@@ -1,0 +1,13 @@
+{
+  "type": "origins:modify_damage_taken",
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "freeze"
+  },
+  "modifier": {
+    "operation": "multiply_total",
+    "value": -1.0
+  },
+  "name": "Cold Resistance",
+  "description": "Your natural affinity with cold environments makes you immune to freezing damage."
+}

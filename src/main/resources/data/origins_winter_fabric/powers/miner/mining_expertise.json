@@ -1,0 +1,14 @@
+{
+  "type": "origins:modify_break_speed",
+  "modifier": {
+    "operation": "multiply_base",
+    "value": 2.25
+  },
+  "block_condition": {
+    "type": "origins:in_tag",
+    "tag": "minecraft:mineable/pickaxe"
+  },
+  "priority": 100,
+  "name": "Мастер Шахтер",
+  "description": "Вы добываете руду и камень в несколько раз быстрее, независимо от используемого инструмента."
+}

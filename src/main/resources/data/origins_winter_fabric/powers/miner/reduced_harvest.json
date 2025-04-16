@@ -1,0 +1,62 @@
+{
+  "type": "origins:multiple",
+  "crop_break": {
+    "type": "origins:action_on_block_break",
+    "block_condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:in_tag",
+          "tag": "minecraft:crops"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:melon"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:pumpkin"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:sweet_berry_bush"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:cactus"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:sugar_cane"
+        }
+      ]
+    },
+    "entity_action": {
+      "type": "origins:chance",
+      "chance": 0.8,
+      "action": {
+        "type": "origins:execute_command",
+        "command": "kill @e[type=item,distance=..3,nbt={Age:0s},limit=5]"
+      }
+    }
+  },
+  "prevent_bonemeal": {
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:bone_meal"
+      }
+    },
+    "hands": [
+      "main_hand",
+      "off_hand"
+    ],
+    "condition": {
+      "type": "origins:chance",
+      "chance": 0.4
+    }
+  },
+  "name": "Неопытный Фермер",
+  "description": "Вы не умеете обращаться с посевами, а потому получаете меньше урожая."
+}

@@ -1,0 +1,23 @@
+{
+  "type": "origins:action_over_time",
+  "interval": 1,
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "attribute @s minecraft:generic.reach_distance base set 6.0"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "scale set pehkui:entity_reach 1.6 @s"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "scale set pehkui:block_reach 1.6 @s"
+      }
+    ]
+  },
+  "name": "Сверхдлинные Руки",
+  "description": "Вы можете размещать и ломать блоки значительно дальше обычного."
+}

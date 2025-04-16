@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.souldi.origins_winter_fabric.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

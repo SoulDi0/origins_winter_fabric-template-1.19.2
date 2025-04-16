@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "origins_winter_fabric:crimson_giant/height_modifier",
+    "origins_winter_fabric:crimson_giant/strength",
+    "origins_winter_fabric:crimson_giant/fire_resistance",
+    "origins_winter_fabric:crimson_giant/nether_affinity",
+    "origins_winter_fabric:crimson_giant/cold_vulnerability"
+  ],
+  "icon": "minecraft:crimson_stem",
+  "order": 20,
+  "impact": 3,
+  "name": "Crimson Giant",
+  "description": "Massive inhabitants of the Nether's crimson forests, these giants stand three blocks tall and possess tremendous strength."
+}

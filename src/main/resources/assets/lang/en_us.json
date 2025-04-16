@@ -1,0 +1,64 @@
+{
+  "origin.origins_winter_fabric.snow_elf.name": "Snow Elf",
+  "origin.origins_winter_fabric.snow_elf.description": "Taller than humans and resistant to cold, these graceful elves are native to snowy biomes.",
+
+  "power.origins_winter_fabric.snow_elf.height_modifier.name": "Taller Form",
+  "power.origins_winter_fabric.snow_elf.height_modifier.description": "Snow Elves are slightly taller than humans.",
+
+  "power.origins_winter_fabric.snow_elf.cold_resistance.name": "Cold Resistance",
+  "power.origins_winter_fabric.snow_elf.cold_resistance.description": "Your natural affinity with cold environments makes you immune to freezing damage.",
+
+  "power.origins_winter_fabric.snow_elf.heat_vulnerability.name": "Sunlight Sensitivity",
+  "power.origins_winter_fabric.snow_elf.heat_vulnerability.description": "Your pale skin burns under direct sunlight. Wear a helmet to protect yourself.",
+
+  "power.origins_winter_fabric.snow_elf.snow_affinity.name": "Snow Affinity",
+  "power.origins_winter_fabric.snow_elf.snow_affinity.description": "You move faster in snowy biomes and on snow blocks.",
+
+  "power.origins_winter_fabric.snow_elf.frost_magic.name": "Frost Aura",
+  "power.origins_winter_fabric.snow_elf.frost_magic.description": "Press the primary ability key (configurable to R in Minecraft settings) to create a powerful frost aura with a 10-block radius for 6 seconds, heavily slowing enemies and withering them.",
+
+  "power.origins_winter_fabric.snow_elf.snow_camouflage.name": "Snow Camouflage",
+  "power.origins_winter_fabric.snow_elf.snow_camouflage.description": "While sneaking, press your secondary ability key to become invisible for 5 seconds.",
+
+  "origin.origins_winter_fabric.crimson_giant.name": "Crimson Giant",
+  "origin.origins_winter_fabric.crimson_giant.description": "Massive inhabitants of the Nether's crimson forests, these giants stand two and a half blocks tall and possess tremendous strength.",
+
+  "power.origins_winter_fabric.crimson_giant.height_modifier.name": "Giant Form",
+  "power.origins_winter_fabric.crimson_giant.height_modifier.description": "Crimson Giants stand two and a half blocks tall with an exceptionally wide build. Your long arms allow you to reach blocks from further away, your long strides make you move faster, and your powerful legs let you jump higher.",
+
+  "power.origins_winter_fabric.crimson_giant.jump_boost.name": "Giant Leap",
+  "power.origins_winter_fabric.crimson_giant.jump_boost.description": "Your powerful legs allow you to jump up to two blocks high.",
+
+  "power.origins_winter_fabric.crimson_giant.strength.name": "Giant Strength",
+  "power.origins_winter_fabric.crimson_giant.strength.description": "Your immense size grants you increased attack damage.",
+
+  "power.origins_winter_fabric.crimson_giant.fire_resistance.name": "Fire Resistance",
+  "power.origins_winter_fabric.crimson_giant.fire_resistance.description": "You are immune to fire and lava damage.",
+
+  "power.origins_winter_fabric.crimson_giant.nether_affinity.name": "Nether Diet",
+  "power.origins_winter_fabric.crimson_giant.nether_affinity.description": "Crimson fungi provide more nourishment for you.",
+
+  "power.origins_winter_fabric.crimson_giant.cold_vulnerability.name": "Cold Vulnerability",
+  "power.origins_winter_fabric.crimson_giant.cold_vulnerability.description": "Your body is adapted to the Nether's heat. You take damage in cold environments, snow, and when exposed to rain.",
+
+  "origin.origins_winter_fabric.dwarf.name": "Dwarf",
+  "origin.origins_winter_fabric.dwarf.description": "Short and sturdy cave dwellers with unparalleled mining abilities and night vision in dark places.",
+
+  "power.origins_winter_fabric.dwarf.height_modifier.name": "Short Stature",
+  "power.origins_winter_fabric.dwarf.height_modifier.description": "Dwarves are significantly shorter than humans.",
+
+  "power.origins_winter_fabric.dwarf.mining_expertise.name": "Mining Expertise",
+  "power.origins_winter_fabric.dwarf.mining_expertise.description": "You mine stone and ore blocks 50% faster than other races.",
+
+  "power.origins_winter_fabric.dwarf.stone_resistance.name": "Stone Resistance",
+  "power.origins_winter_fabric.dwarf.stone_resistance.description": "Your sturdy body takes 30% less damage from falling and falling blocks.",
+
+  "power.origins_winter_fabric.dwarf.night_vision.name": "Dark Vision",
+  "power.origins_winter_fabric.dwarf.night_vision.description": "Your eyes are adapted to seeing in dark caves and underground.",
+
+  "power.origins_winter_fabric.dwarf.cave_dweller.name": "Cave Dweller",
+  "power.origins_winter_fabric.dwarf.cave_dweller.description": "You feel stronger and healthier underground or in darkness, gaining 2 hearts of extra health.",
+
+  "key.origins_winter_fabric.frost_aura": "Frost Aura",
+  "category.origins_winter_fabric.powers": "Origins Winter Powers"
+}

@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "name": "Profession",
+  "missing_name": "No Profession",
+  "missing_description": "You haven't chosen a profession yet.",
+  "order": 100,
+  "enabled": true,
+  "origins": [
+    "origins_winter_fabric:lumberjack",
+    "origins_winter_fabric:miner",
+    "origins_winter_fabric:warrior",
+    "origins_winter_fabric:farmer",
+    "origins_winter_fabric:enchanter",
+    "origins_winter_fabric:builder"
+  ]
+}

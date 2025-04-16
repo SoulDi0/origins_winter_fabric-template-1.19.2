@@ -1,0 +1,17 @@
+{
+  "type": "origins:modify_food",
+  "food_modifier": {
+    "operation": "addition",
+    "value": 2
+  },
+  "saturation_modifier": {
+    "operation": "addition",
+    "value": 0.5
+  },
+  "condition": {
+    "type": "origins:food",
+    "food": "minecraft:crimson_fungus"
+  },
+  "name": "Nether Diet",
+  "description": "Crimson fungi provide more nourishment for you."
+}

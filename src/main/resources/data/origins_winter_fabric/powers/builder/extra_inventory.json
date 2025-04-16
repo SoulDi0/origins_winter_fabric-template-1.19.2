@@ -1,0 +1,12 @@
+{
+  "type": "origins:inventory",
+  "slots": 9,
+  "title": "Сумка строителя",
+  "drop_on_death": false,
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "name": "Расширенный Инвентарь",
+  "description": "У вас есть дополнительный ряд инвентаря из 9 слотов. Откройте его с помощью клавиши основной способности."
+}

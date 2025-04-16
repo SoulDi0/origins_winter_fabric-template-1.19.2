@@ -1,0 +1,33 @@
+{
+  "layers": [
+    {
+      "id": "origin",
+      "name": "Origin",
+      "description": "Choose your race",
+      "enabled": true,
+      "default_origin": "origins:human",
+      "origins": [
+        "origins_winter_fabric:snow_elf",
+        "origins:human",
+        "origins_winter_fabric:crimson_giant",
+        "origins_winter_fabric:dwarf"
+      ]
+    },
+    {
+      "id": "profession",
+      "name": "Profession",
+      "description": "Choose your profession",
+      "enabled": true,
+      "order": 100,
+      "default_origin": "origins:empty",
+      "origins": [
+        "origins_winter_fabric:lumberjack",
+        "origins_winter_fabric:miner",
+        "origins_winter_fabric:warrior",
+        "origins_winter_fabric:farmer",
+        "origins_winter_fabric:enchanter",
+        "origins_winter_fabric:builder"
+      ]
+    }
+  ]
+}

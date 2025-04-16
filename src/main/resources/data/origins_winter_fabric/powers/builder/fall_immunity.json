@@ -1,0 +1,13 @@
+{
+  "type": "origins:modify_damage_taken",
+  "modifier": {
+    "operation": "multiply_total",
+    "value": -1.0
+  },
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "fall"
+  },
+  "name": "Безопасность на Стройке",
+  "description": "Вы не получаете урон от падения, так как привыкли работать на больших высотах."
+}

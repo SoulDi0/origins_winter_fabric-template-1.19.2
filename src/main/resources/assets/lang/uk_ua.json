@@ -1,0 +1,64 @@
+{
+  "origin.origins_winter_fabric.snow_elf.name": "Сніговий Ельф",
+  "origin.origins_winter_fabric.snow_elf.description": "Вищі за людей і стійкі до холоду, ці витончені ельфи родом із снігових біомів.",
+
+  "power.origins_winter_fabric.snow_elf.height_modifier.name": "Високий Зріст",
+  "power.origins_winter_fabric.snow_elf.height_modifier.description": "Снігові Ельфи трохи вищі за людей.",
+
+  "power.origins_winter_fabric.snow_elf.cold_resistance.name": "Стійкість до Холоду",
+  "power.origins_winter_fabric.snow_elf.cold_resistance.description": "Ваш природний зв'язок з холодним середовищем робить вас несприйнятливим до пошкоджень від замерзання.",
+
+  "power.origins_winter_fabric.snow_elf.heat_vulnerability.name": "Чутливість до Сонця",
+  "power.origins_winter_fabric.snow_elf.heat_vulnerability.description": "Ваша бліда шкіра горить під прямими сонячними променями. Носіть шолом, щоб захистити себе.",
+
+  "power.origins_winter_fabric.snow_elf.snow_affinity.name": "Спорідненість зі Снігом",
+  "power.origins_winter_fabric.snow_elf.snow_affinity.description": "Ви рухаєтесь швидше в снігових біомах і на снігових блоках.",
+
+  "power.origins_winter_fabric.snow_elf.frost_magic.name": "Морозна Аура",
+  "power.origins_winter_fabric.snow_elf.frost_magic.description": "Натисніть клавішу первинної здібності (можна налаштувати на R у налаштуваннях Minecraft), щоб створити потужну морозну ауру з радіусом 10 блоків на 6 секунд, сильно сповільнюючи ворогів і накладаючи на них висушення.",
+
+  "power.origins_winter_fabric.snow_elf.snow_camouflage.name": "Сніговий Камуфляж",
+  "power.origins_winter_fabric.snow_elf.snow_camouflage.description": "Під час присідання натисніть клавішу вторинної здібності, щоб стати невидимим на 5 секунд.",
+
+  "origin.origins_winter_fabric.crimson_giant.name": "Багряник",
+  "origin.origins_winter_fabric.crimson_giant.description": "Величезні мешканці багряних лісів Нижнього світу, ці гіганти зростом у два з половиною блоки володіють неймовірною силою.",
+
+  "power.origins_winter_fabric.crimson_giant.height_modifier.name": "Гігантський Зріст",
+  "power.origins_winter_fabric.crimson_giant.height_modifier.description": "Багряники мають зріст у два з половиною блоки і надзвичайно широку статуру. Ваші довгі руки дозволяють взаємодіяти з блоками з більшої відстані, а довгі кроки роблять вас швидшими, і потужні ноги дозволяють стрибати вище.",
+
+  "power.origins_winter_fabric.crimson_giant.jump_boost.name": "Гігантський Стрибок",
+  "power.origins_winter_fabric.crimson_giant.jump_boost.description": "Ваші потужні ноги дозволяють стрибати на висоту до двох блоків.",
+
+  "power.origins_winter_fabric.crimson_giant.strength.name": "Сила Гіганта",
+  "power.origins_winter_fabric.crimson_giant.strength.description": "Ваш величезний розмір дає вам збільшену шкоду в ближньому бою.",
+
+  "power.origins_winter_fabric.crimson_giant.fire_resistance.name": "Вогнестійкість",
+  "power.origins_winter_fabric.crimson_giant.fire_resistance.description": "Ви несприйнятливі до пошкоджень від вогню та лави.",
+
+  "power.origins_winter_fabric.crimson_giant.nether_affinity.name": "Адаптація до Нижнього світу",
+  "power.origins_winter_fabric.crimson_giant.nether_affinity.description": "Багряні гриби дають вам більше насичення та поживності.",
+
+  "power.origins_winter_fabric.crimson_giant.cold_vulnerability.name": "Вразливість до Холоду",
+  "power.origins_winter_fabric.crimson_giant.cold_vulnerability.description": "Ваше тіло адаптоване до спеки Нижнього світу. Ви отримуєте пошкодження в холодних біомах, на снігу та під дощем.",
+
+  "origin.origins_winter_fabric.dwarf.name": "Дворф",
+  "origin.origins_winter_fabric.dwarf.description": "Низькорослі та міцні жителі печер з неперевершеними здібностями до видобутку та нічним баченням у темних місцях.",
+
+  "power.origins_winter_fabric.dwarf.height_modifier.name": "Низький Зріст",
+  "power.origins_winter_fabric.dwarf.height_modifier.description": "Дворфи значно нижчі за людей.",
+
+  "power.origins_winter_fabric.dwarf.mining_expertise.name": "Майстерність Видобутку",
+  "power.origins_winter_fabric.dwarf.mining_expertise.description": "Ви видобуваєте камінь та руди на 50% швидше, ніж представники інших рас.",
+
+  "power.origins_winter_fabric.dwarf.stone_resistance.name": "Стійкість до Каміння",
+  "power.origins_winter_fabric.dwarf.stone_resistance.description": "Ваше міцне тіло отримує на 30% менше шкоди від падіння та падаючих блоків.",
+
+  "power.origins_winter_fabric.dwarf.night_vision.name": "Нічний Зір",
+  "power.origins_winter_fabric.dwarf.night_vision.description": "Ваші очі адаптовані для бачення в темних печерах та під землею.",
+
+  "power.origins_winter_fabric.dwarf.cave_dweller.name": "Мешканець Печер",
+  "power.origins_winter_fabric.dwarf.cave_dweller.description": "Ви почуваєтесь сильнішим і здоровішим під землею або в темряві, отримуючи додаткові 2 серця здоров'я.",
+
+  "key.origins_winter_fabric.frost_aura": "Морозна Аура",
+  "category.origins_winter_fabric.powers": "Здібності Origins Winter"
+}

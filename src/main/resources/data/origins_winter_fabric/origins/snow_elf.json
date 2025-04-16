@@ -1,0 +1,17 @@
+{
+  "powers": [
+    "origins_winter_fabric:snow_elf/height_modifier",
+    "origins_winter_fabric:snow_elf/cold_resistance",
+    "origins_winter_fabric:snow_elf/heat_vulnerability",
+    "origins_winter_fabric:snow_elf/snow_affinity",
+    "origins_winter_fabric:snow_elf/frost_magic",
+    "origins_winter_fabric:snow_elf/snow_camouflage",
+    "origins_winter_fabric:snow_elf/cold_env_resistance",
+    "origins_winter_fabric:snow_elf/heat_env_vulnerability"
+  ],
+  "icon": "minecraft:snow_block",
+  "order": 10,
+  "impact": 2,
+  "name": "Snow Elf",
+  "description": "Taller than humans and resistant to cold, these graceful elves are native to snowy biomes."
+}

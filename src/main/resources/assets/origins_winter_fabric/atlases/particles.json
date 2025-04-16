@@ -1,0 +1,9 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "origins_winter_fabric:particle",
+      "prefix": "origins_winter_fabric:"
+    }
+  ]
+}

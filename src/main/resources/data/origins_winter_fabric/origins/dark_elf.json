@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "origins_winter_fabric:dark_elf/poison_aura",
+    "origins_winter_fabric:dark_elf/cold_resistance",
+    "origins_winter_fabric:dark_elf/night_vision",
+    "origins_winter_fabric:dark_elf/shadow_protection",
+    "origins_winter_fabric:dark_elf/height_modifier",
+    "origins_winter_fabric:dark_elf/armor_restriction",
+    "origins_winter_fabric:dark_elf/speed"
+  ],
+  "icon": "origins_winter_fabric:dark_elf_icon",
+  "order": 10,
+  "impact": 2,
+  "name": "Темный Эльф",
+  "description": "Загадочная древняя раса эльфов, живущих в тени и владеющих темной магией. Они адаптированы к холоду и прекрасно видят в темноте."
+}

@@ -2,7 +2,7 @@
   "type": "origins:modify_break_speed",
   "modifier": {
     "operation": "multiply_base",
-    "value": 2.25
+    "value": 1.3
   },
   "block_condition": {
     "type": "origins:in_tag",
@@ -10,5 +10,5 @@
   },
   "priority": 100,
   "name": "Мастер Шахтер",
-  "description": "Вы добываете руду и камень в несколько раз быстрее, независимо от используемого инструмента."
+  "description": "Вы добываете руду и камень быстрее, независимо от используемого инструмента."
 }

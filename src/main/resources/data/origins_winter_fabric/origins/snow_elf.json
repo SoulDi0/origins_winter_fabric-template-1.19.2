@@ -1,17 +1,16 @@
 {
   "powers": [
-    "origins_winter_fabric:snow_elf/height_modifier",
+    "origins_winter_fabric:snow_elf/armor_restriction",
     "origins_winter_fabric:snow_elf/cold_resistance",
-    "origins_winter_fabric:snow_elf/heat_vulnerability",
-    "origins_winter_fabric:snow_elf/snow_affinity",
     "origins_winter_fabric:snow_elf/frost_magic",
-    "origins_winter_fabric:snow_elf/snow_camouflage",
-    "origins_winter_fabric:snow_elf/cold_env_resistance",
-    "origins_winter_fabric:snow_elf/heat_env_vulnerability"
+    "origins_winter_fabric:snow_elf/height_modifier",
+    "origins_winter_fabric:snow_elf/snow_walk",
+    "origins_winter_fabric:snow_elf/speed",
+    "origins_winter_fabric:snow_elf/summon_snowmen"
   ],
-  "icon": "minecraft:snow_block",
-  "order": 10,
+  "icon": "origins_winter_fabric:snow_elf",
+  "order": 11,
   "impact": 2,
-  "name": "Snow Elf",
-  "description": "Taller than humans and resistant to cold, these graceful elves are native to snowy biomes."
+  "name": "Снежный Эльф",
+  "description": "Эльфы, адаптировавшиеся к жизни в вечных снегах и обладающие контролем над холодом и льдом. Они быстрее обычных существ, ходят по снегу не проваливаясь и имеют полную защиту от холода."
 }

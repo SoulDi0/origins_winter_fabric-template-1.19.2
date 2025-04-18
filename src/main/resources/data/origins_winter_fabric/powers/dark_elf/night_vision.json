@@ -1,0 +1,17 @@
+{
+  "type": "origins:action_over_time",
+  "interval": 20,
+  "entity_action": {
+    "type": "origins:if_else",
+    "condition": {
+      "type": "origins:daytime",
+      "inverted": true
+    },
+    "if_action": {
+      "type": "origins:execute_command",
+      "command": "effect give @s minecraft:night_vision 15 0 true"
+    }
+  },
+  "name": "Сумеречное Зрение",
+  "description": "Ваши глаза приспособлены к темноте. Вы прекрасно видите ночью."
+}

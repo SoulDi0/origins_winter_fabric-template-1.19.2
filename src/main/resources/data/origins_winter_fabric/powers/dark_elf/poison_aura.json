@@ -1,0 +1,37 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "effect give @e[distance=0.1..5] minecraft:weakness 10 1 false"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "effect give @e[distance=0.1..5] minecraft:poison 7 0 false"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "particle minecraft:entity_effect ~ ~ ~ 0.5 0.5 0.5 0.5 50 normal"
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.wither.spawn",
+        "volume": 0.5,
+        "pitch": 1.5
+      }
+    ]
+  },
+  "cooldown": 600,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+    "bar_index": 10
+  },
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "name": "Темная Аура",
+  "description": "Активируйте способность, чтобы наложить слабость и отравление на всех существ в радиусе 5 блоков."
+}

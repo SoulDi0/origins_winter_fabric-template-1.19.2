@@ -2,8 +2,7 @@
   "powers": [
     "origins_winter_fabric:farmer/increased_harvest",
     "origins_winter_fabric:farmer/growth_aura",
-    "origins_winter_fabric:farmer/hoe_durability",
-    "origins_winter_fabric:farmer/animal_breeding_bonus"
+    "origins_winter_fabric:farmer/hoe_durability"
   ],
   "icon": "minecraft:wheat",
   "order": 5,

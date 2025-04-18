@@ -33,7 +33,7 @@
     },
     "entity_action": {
       "type": "origins:chance",
-      "chance": 0.8,
+      "chance": 0.625,
       "action": {
         "type": "origins:execute_command",
         "command": "kill @e[type=item,distance=..3,nbt={Age:0s},limit=5]"

@@ -1,0 +1,45 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run kill @e[tag=ore_marker,distance=..20]"
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:block.amethyst_block.chime",
+        "volume": 0.7,
+        "pitch": 1.5
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run particle minecraft:dust 0.8 0.8 0.8 1.0 ~ ~1 ~ 0.5 0.5 0.5 0.1 30 normal"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run function origins_winter_fabric:dwarf/scan_for_ores"
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 200,
+        "action": {
+          "type": "origins:execute_command",
+          "command": "execute at @s run kill @e[tag=ore_marker,distance=..20]"
+        }
+      }
+    ]
+  },
+  "cooldown": 600,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+    "bar_index": 3
+  },
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "name": "Чувство Руд",
+  "description": "Активируйте способность, чтобы обнаружить руды в радиусе 10 блоков вокруг вас. На месте руд появятся светящиеся указатели, которые исчезнут через 10 секунд."
+}

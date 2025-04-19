@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "origins_winter_fabric:forest_elf/healing_aura",
+    "origins_winter_fabric:forest_elf/extra_loot",
+    "origins_winter_fabric:forest_elf/creature_sense",
+    "origins_winter_fabric:forest_elf/speed",
+    "origins_winter_fabric:forest_elf/height_modifier",
+    "origins_winter_fabric:forest_elf/armor_restriction",
+    "origins_winter_fabric:forest_elf/hot_resistance"
+  ],
+  "icon": "origins_winter_fabric:forest_elf",
+  "order": 12,
+  "impact": 2,
+  "name": "Лесной Эльф",
+  "description": "Эльфы, живущие в гармонии с природой и лесными созданиями. Они обладают целебной энергией, способны находить ценные ресурсы и чувствовать присутствие живых существ."
+}

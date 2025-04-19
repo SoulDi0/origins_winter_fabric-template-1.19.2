@@ -1,29 +1,11 @@
 {
-  "type": "origins:multiple",
-  "speed_increase": {
-    "type": "origins:attribute",
-    "modifier": {
-      "name": "Snow Elf speed bonus",
-      "attribute": "minecraft:generic.movement_speed",
-      "value": 0.1,
-      "operation": "multiply_base"
-    }
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Elf speed bonus",
+    "attribute": "minecraft:generic.movement_speed",
+    "value": 0.1,
+    "operation": "multiply_base"
   },
-  "visual_effect": {
-    "type": "origins:particle",
-    "particle": "minecraft:snowflake",
-    "frequency": 5,
-    "count": 1,
-    "speed": 0.0,
-    "spread": {
-      "x": 0.3,
-      "y": 0.0,
-      "z": 0.3
-    },
-    "condition": {
-      "type": "origins:sprinting"
-    }
-  },
-  "name": "Морозная Скорость",
+  "name": "Скорость",
   "description": "Вы от природы на 10% быстрее обычных существ, независимо от окружающих условий."
 }

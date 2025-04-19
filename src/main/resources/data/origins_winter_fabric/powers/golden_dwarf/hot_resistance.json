@@ -1,0 +1,129 @@
+{
+  "type": "origins:multiple",
+  "vanilla_hot_protection": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "on_fire"
+    },
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -0.9
+    }
+  },
+  "environmentz_commands": {
+    "type": "origins:action_over_time",
+    "interval": 100,
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "execute as @s run environment protection @s hot 17"
+    }
+  },
+  "environmentz_resistance": {
+    "type": "origins:action_over_time",
+    "interval": 150,
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "execute as @s run environment resistance @s hot 17"
+    }
+  },
+  "initial_setup": {
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+      "type": "origins:execute_command",
+      "command": "execute as @s run environment protection @s hot 17"
+    },
+    "entity_action_respawned": {
+      "type": "origins:execute_command",
+      "command": "execute as @s run environment protection @s hot 17"
+    }
+  },
+  "hot_slowness_immunity": {
+    "type": "origins:effect_immunity",
+    "effects": [
+      "minecraft:slowness"
+    ],
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:biome",
+          "condition": {
+            "type": "origins:category",
+            "category": "desert"
+          }
+        },
+        {
+          "type": "origins:biome",
+          "condition": {
+            "type": "origins:category",
+            "category": "nether"
+          }
+        },
+        {
+          "type": "origins:block_in_radius",
+          "block_condition": {
+            "type": "origins:or",
+            "conditions": [
+              {
+                "type": "origins:block",
+                "block": "minecraft:fire"
+              },
+              {
+                "type": "origins:block",
+                "block": "minecraft:lava"
+              },
+              {
+                "type": "origins:block",
+                "block": "minecraft:magma_block"
+              }
+            ]
+          },
+          "radius": 3,
+          "shape": "cube",
+          "comparison": ">=",
+          "compare_to": 3
+        }
+      ]
+    }
+  },
+  "visual_feedback": {
+    "type": "origins:particle",
+    "particle": "minecraft:flame",
+    "frequency": 10,
+    "count": 1,
+    "speed": 0.0,
+    "spread": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    },
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:biome",
+          "condition": {
+            "type": "origins:category",
+            "category": "desert"
+          }
+        },
+        {
+          "type": "origins:biome",
+          "condition": {
+            "type": "origins:category",
+            "category": "nether"
+          }
+        },
+        {
+          "type": "origins:on_fire"
+        }
+      ]
+    }
+  },
+  "fire_immunity": {
+    "type": "origins:fire_immunity"
+  },
+  "name": "Жароустойчивость",
+  "description": "Вы адаптированы к высоким температурам."
+}

@@ -1,0 +1,52 @@
+{
+  "type": "origins:multiple",
+  "entity_drops": {
+    "type": "origins:action_on_entity_kill",
+    "entity_condition": {
+      "type": "origins:entity_type",
+      "entity_type": "#minecraft:mobs"
+    },
+    "entity_action": {
+      "type": "origins:chance",
+      "chance": 0.3,
+      "action": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:execute_command",
+            "command": "execute at @s run summon item ~ ~ ~ {Item:{id:\"minecraft:bone\",Count:1b},PickupDelay:0,Tags:[\"extra_loot\"]}"
+          },
+          {
+            "type": "origins:execute_command",
+            "command": "execute at @s run data modify entity @e[type=item,tag=extra_loot,limit=1,sort=nearest] Item set from entity @e[type=item,distance=..3,limit=1,sort=nearest,tag=!extra_loot] Item"
+          },
+          {
+            "type": "origins:execute_command",
+            "command": "execute at @s run tag @e[type=item,tag=extra_loot,limit=1,sort=nearest] remove extra_loot"
+          },
+          {
+            "type": "origins:execute_command",
+            "command": "particle minecraft:totem_of_undying ~ ~ ~ 0.3 0.3 0.3 0.1 10 normal"
+          }
+        ]
+      }
+    }
+  },
+  "rare_drops": {
+    "type": "origins:action_on_entity_kill",
+    "entity_condition": {
+      "type": "origins:entity_type",
+      "entity_type": "#minecraft:mobs"
+    },
+    "entity_action": {
+      "type": "origins:chance",
+      "chance": 0.05,
+      "action": {
+        "type": "origins:execute_command",
+        "command": "execute at @s run loot spawn ~ ~ ~ loot minecraft:gameplay/fishing/treasure"
+      }
+    }
+  },
+  "name": "Дары Природы",
+  "description": "Благодаря вашей гармонии с природой, вы получаете на 30% больше предметов с убитых существ и имеете 5% шанс найти редкие сокровища."
+}

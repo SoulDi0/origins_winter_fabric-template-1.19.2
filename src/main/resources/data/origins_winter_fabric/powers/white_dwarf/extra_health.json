@@ -1,0 +1,12 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "White Dwarf extra health",
+    "attribute": "minecraft:generic.max_health",
+    "value": 10.0,
+    "operation": "addition"
+  },
+  "update_health": true,
+  "name": "Крепкое Телосложение",
+  "description": "Ваше тело крепче обычного. Вы обладаете 15 единицами здоровья вместо стандартных 10."
+}

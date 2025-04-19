@@ -1,0 +1,104 @@
+{
+  "type": "origins:multiple",
+  "prevent_swimming": {
+    "type": "origins:swimming",
+    "condition": {
+      "type": "origins:in_tag",
+      "tag": "origins:on_temperate_water"
+    },
+    "inverted": true
+  },
+  "sink_in_water": {
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
+      },
+      "if_action": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:add_velocity",
+            "y": -0.05,
+            "space": "world"
+          },
+          {
+            "type": "origins:execute_command",
+            "command": "effect give @s minecraft:slowness 1 2 true"
+          }
+        ]
+      }
+    }
+  },
+  "constant_sink": {
+    "type": "origins:modify_velocity",
+    "modifier": {
+      "operation": "addition",
+      "value": -0.1
+    },
+    "condition": {
+      "type": "origins:fluid_height",
+      "fluid": "minecraft:water",
+      "comparison": ">",
+      "compare_to": 0.0
+    },
+    "axes": [
+      "y"
+    ]
+  },
+  "disable_jump": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_total",
+      "value": -0.9
+    },
+    "condition": {
+      "type": "origins:fluid_height",
+      "fluid": "minecraft:water",
+      "comparison": ">",
+      "compare_to": 0.0
+    }
+  },
+  "water_breathing_time": {
+    "type": "origins:modify_air",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -0.5
+    },
+    "condition": {
+      "type": "origins:fluid_height",
+      "fluid": "minecraft:water",
+      "comparison": ">",
+      "compare_to": 0.0
+    }
+  },
+  "visual_effect": {
+    "type": "origins:action_over_time",
+    "interval": 10,
+    "entity_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": ">",
+        "compare_to": 0.0
+      },
+      "if_action": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:execute_command",
+            "command": "particle minecraft:bubble ~ ~0.5 ~ 0.2 0.2 0.2 0.01 5 normal"
+          }
+
+        ]
+      }
+    }
+  },
+  "name": "Тяжесть",
+  "description": "Ваше тело слишком тяжёлое, вы не можете плавать и моментально тонете в воде."
+}

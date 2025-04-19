@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "origins_winter_fabric:gray_dwarf/night_vision",
+    "origins_winter_fabric:gray_dwarf/ore_detection",
+    "origins_winter_fabric:gray_dwarf/mining_haste",
+    "origins_winter_fabric:gray_dwarf/cold_resistance",
+    "origins_winter_fabric:gray_dwarf/gold_dwarf_sinking",
+    "origins_winter_fabric:gray_dwarf/height_modifier"
+  ],
+  "icon": "minecraft:stone_pickaxe",
+  "order": 15,
+  "impact": 2,
+  "name": "Серый Дворф",
+  "description": "Древние обитатели горных пещер, мастера добычи руд и камня. Серые дворфы обладают великолепным ночным зрением, природной скоростью копания и способностью чувствовать руды."
+}

@@ -1,0 +1,45 @@
+{
+  "type": "origins:multiple",
+  "haste_effect": {
+    "type": "origins:action_over_time",
+    "interval": 200,
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "effect give @s minecraft:haste 300 0 true"
+    }
+  },
+  "break_speed_bonus": {
+    "type": "origins:modify_break_speed",
+    "modifier": {
+      "operation": "multiply_base",
+      "value": 0.1
+    },
+    "block_condition": {
+      "type": "origins:in_tag",
+      "tag": "minecraft:mineable/pickaxe"
+    }
+  },
+  "visual_effect": {
+    "type": "origins:action_over_time",
+    "interval": 100,
+    "entity_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "minecraft:pickaxes"
+          }
+        }
+      },
+      "if_action": {
+        "type": "origins:execute_command",
+        "command": "execute at @s run particle minecraft:crit ~ ~1 ~ 0.2 0.2 0.2 0.01 1 normal"
+      }
+    }
+  },
+  "name": "Врожденное Мастерство",
+  "description": "Вы обладаете постоянным эффектом спешки I, а также копаете инструментами на 10% быстрее, благодаря вашему врожденному мастерству добычи."
+}

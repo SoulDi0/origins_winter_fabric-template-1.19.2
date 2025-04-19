@@ -5,6 +5,10 @@
     "origins:human",
     "origins_winter_fabric:crimson_giant",
     "origins_winter_fabric:dwarf",
-    "origins_winter_fabric:dark_elf"
+    "origins_winter_fabric:dark_elf",
+    "origins_winter_fabric:forest_elf",
+    "origins_winter_fabric:golden_dwarf",
+    "origins_winter_fabric:white_dwarf",
+    "origins_winter_fabric:gray_dwarf"
   ]
 }

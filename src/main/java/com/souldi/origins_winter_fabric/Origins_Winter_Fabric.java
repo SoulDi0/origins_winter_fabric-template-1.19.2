@@ -1,5 +1,6 @@
 package com.souldi.origins_winter_fabric;
 
+
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
@@ -21,6 +22,10 @@ public class Origins_Winter_Fabric implements ModInitializer {
 	// Создаем предмет для иконки Темного эльфа
 	public static final Item DARK_ELF_ICON = new Item(new Item.Settings().group(ItemGroup.MISC));
 	public static final Item SNOW_ELF = new Item(new Item.Settings().group(ItemGroup.MISC));
+	public static final Item FOREST_ELF = new Item(new Item.Settings().group(ItemGroup.MISC));
+
+
+
 
 	@Override
 	public void onInitialize() {
@@ -38,6 +43,11 @@ public class Origins_Winter_Fabric implements ModInitializer {
 		// Регистрируем иконку как предмет
 		Registry.register(Registry.ITEM, new Identifier(MOD_ID, "dark_elf_icon"), DARK_ELF_ICON);
 		Registry.register(Registry.ITEM, new Identifier(MOD_ID, "snow_elf"), SNOW_ELF);
+		Registry.register(Registry.ITEM, new Identifier(MOD_ID, "forest_elf"), FOREST_ELF);
+
+
+
+
 		LOGGER.info("Custom icons registered!");
 	}
 

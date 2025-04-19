@@ -1,0 +1,37 @@
+{
+  "type": "origins:multiple",
+  "hero_effect": {
+    "type": "origins:action_over_time",
+    "interval": 300,
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "effect give @s minecraft:hero_of_the_village 400 0 true"
+    }
+  },
+  "better_trades": {
+    "type": "origins:modify_villager_trades",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -0.15
+    }
+  },
+  "villager_welcome": {
+    "type": "origins:action_over_time",
+    "interval": 100,
+    "entity_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:distance_from_entity",
+        "entity_type": "minecraft:villager",
+        "comparison": "<",
+        "compare_to": 5
+      },
+      "if_action": {
+        "type": "origins:execute_command",
+        "command": "execute at @s run particle minecraft:happy_villager ~ ~1 ~ 0.5 0.5 0.5 0.1 3 normal"
+      }
+    }
+  },
+  "name": "Герой Деревни",
+  "description": "Жители деревень всегда уважают вас и предлагают лучшие цены на торговлю. Вы постоянно имеете эффект 'Герой деревни', что дает вам подарки от благодарных жителей."
+}

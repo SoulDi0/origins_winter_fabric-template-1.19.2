@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "origins_winter_fabric:death_reaper/height_modifier"
+  ],
+  "icon": "minecraft:string",
+  "order": 12,
+  "impact": 2,
+  "name": "Багрянник",
+  "description": "Проворные существа с кошачьими инстинктами и отличной гибкостью."
+}

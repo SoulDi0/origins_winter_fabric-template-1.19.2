@@ -21,10 +21,11 @@
         "origins_winter_fabric:winter_fairy",
         "origins_winter_fabric:redbud",
         "origins_winter_fabric:demon",
-        "origins_winter_fabric:reaper",
-        "origins_winter_fabric:cat",
         "origins_winter_fabric:dog",
-        "origins_winter_fabric:foxy"
+        "origins_winter_fabric:foxy",
+        "origins_winter_fabric:catmorph",
+        "origins_winter_fabric:death_reaper",
+        "origins_winter_fabric:red_reaper"
       ]
     },
     {

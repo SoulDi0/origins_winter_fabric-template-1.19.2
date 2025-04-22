@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "origins_winter_fabric:item/winter_wings"
-  }
-}

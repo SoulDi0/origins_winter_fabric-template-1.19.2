@@ -3,9 +3,9 @@
     "origins_winter_fabric:winter_fairy/small_size"
 
   ],
-  "icon": "minecraft:fire_charge",
+  "icon": "origins_winter_fabric:winter_fairy",
   "order": 10,
   "impact": 2,
-  "name": "Огненная Фея",
+  "name": "Снежная фея",
   "description": "Миниатюрные огненные существа, обладающие сильной связью с огнём и теплом. Они могут стрелять огненными шарами и имеют устойчивость к высоким температурам."
 }

@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "origins_winter_fabric:catmorph/height_modifier"
+  ],
+  "icon": "minecraft:string",
+  "order": 14,
+  "impact": 3,
+  "name": "Котоморф",
+  "description": "Проворные существа с кошачьими инстинктами и отличной гибкостью."
+}

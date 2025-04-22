@@ -3,9 +3,10 @@
     "origins_winter_fabric:flower_fairy/small_size",
     "origins_winter_fabric:flower_fairy/fairy_flight",
     "origins_winter_fabric:flower_fairy/flower_growth",
-    "origins_winter_fabric:flower_fairy/permanent_fairy_wings"
+    "origins_winter_fabric:flower_fairy/thorns",
+    "origins_winter_fabric:flower_fairy/flower_trap"
   ],
-  "icon": "minecraft:allium",
+  "icon": "origins_winter_fabric:flower_fairy",
   "order": 9,
   "impact": 2,
   "name": "Цветочная Фея",

@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "origins_winter_fabric:death_reaper/height_modifier"
+  ],
+  "icon": "minecraft:string",
+  "order": 13,
+  "impact": 2,
+  "name": "Жнец",
+  "description": "Проворные существа с кошачьими инстинктами и отличной гибкостью."
+}

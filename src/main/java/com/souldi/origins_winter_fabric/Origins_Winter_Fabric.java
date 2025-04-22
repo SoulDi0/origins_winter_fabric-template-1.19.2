@@ -24,6 +24,9 @@ public class Origins_Winter_Fabric implements ModInitializer {
 	public static final Item WHITE_DWARF = new Item(new FabricItemSettings());
 	public static final Item GRAY_DWARF = new Item(new FabricItemSettings());
 	public static final Item GOLDEN_DWARF = new Item(new FabricItemSettings());
+	public static final Item WINTER_FAIRY = new Item(new FabricItemSettings());
+	public static final Item FLOWER_FAIRY = new Item(new FabricItemSettings());
+	public static final Item FIRE_FAIRY = new Item(new FabricItemSettings());
 
 	// Ссылка на FairyWings для использования в FairyClientRegistry
 
@@ -49,6 +52,9 @@ public class Origins_Winter_Fabric implements ModInitializer {
 		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "white_dwarf"), WHITE_DWARF);
 		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "gray_dwarf"), GRAY_DWARF);
 		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "golden_dwarf"), GOLDEN_DWARF);
+		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "fire_fairy"), FIRE_FAIRY);
+		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "winter_fairy"), WINTER_FAIRY);
+		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "flower_fairy"), FLOWER_FAIRY);
 
 		CommandRegistry.init();
 

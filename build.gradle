@@ -16,6 +16,10 @@ repositories {
 	maven { url = "https://maven.ladysnake.org/releases" }
 	maven { url = "https://maven.shedaniel.me/" }
 
+	// Добавляем официальный репозиторий GeckoLib
+	maven { url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
+	maven { url = 'https://maven.minecraftforge.net/' } // Для зависимостей GeckoLib
+	maven { url = 'https://cursemaven.com' } // Альтернативный источник модов
 }
 
 loom {
@@ -37,17 +41,23 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	// Локальные зависимости напрямую из папки libs
-	modImplementation files('libs/Origins-1.19.2-1.7.1.jar')
-	modImplementation files('libs/medieval-origins-5.1.9.2+1.19.2.jar')
-	modImplementation files('libs/Pehkui-3.8.3+1.14.4-1.21.jar')  // Добавляем Pehkui для Medieval Origins
-	modImplementation files('libs/environmentz-2.0.5.jar')
 	modImplementation files('libs/extrakeybinds-0.5.0+1.17-1.19.4.jar')
+	modImplementation files('libs/environmentz-2.0.8.jar')
+	modImplementation files('libs/Medieval Origins Revival-6.5.1+1.20.1-fabric.jar')
+	modImplementation files('libs/Pehkui-3.8.3+1.14.4-1.21.jar')
+	modImplementation files('libs/Origins-1.20.1-1.10.0.jar')
 
+
+	modImplementation "software.bernie.geckolib:geckolib-fabric-1.20.1:4.2.2"
 
 	modImplementation "net.fabricmc.fabric-api:fabric-particles-v1:0.2.15+3d75e5b490"
 	modImplementation "net.fabricmc.fabric-api:fabric-renderer-api-v1:0.4.18+2efa6deb90"
 	modImplementation "net.fabricmc.fabric-api:fabric-renderer-indigo:0.5.7+2efa6deb90"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:0.67.0+1.19.2"
+
+	modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-base:5.2.0"
+	modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-entity:5.2.0"
+
 
 }
 
@@ -59,9 +69,29 @@ processResources {
 	}
 }
 
+sourceSets {
+	main {
+		java.srcDirs = ["src/main/java"]
+	}
+	client {
+		java.srcDirs = ["src/client/java"]
+	}
+}
+
+
 tasks.withType(JavaCompile).configureEach {
 	it.options.release = 17
 }
+
+tasks.register("checkDeps") {
+	doLast {
+		println "=== Зависимости compileClasspath ==="
+		configurations.compileClasspath.each {
+			println it
+		}
+	}
+}
+
 
 
 java {
@@ -72,6 +102,7 @@ java {
 
 jar {
 	inputs.property "archivesName", project.base.archivesName
+	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 
 	from("LICENSE") {
 		rename { "${it}_${inputs.properties.archivesName}"}

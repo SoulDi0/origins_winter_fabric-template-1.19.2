@@ -1,0 +1,91 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:poppy\",Count:1b},Motion:[0.0,0.3,0.0],PickupDelay:40}"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:dandelion\",Count:1b},Motion:[0.2,0.3,0.0],PickupDelay:40}"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:blue_orchid\",Count:1b},Motion:[-0.2,0.3,0.0],PickupDelay:40}"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:allium\",Count:1b},Motion:[0.0,0.3,0.2],PickupDelay:40}"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:lily_of_the_valley\",Count:1b},Motion:[0.0,0.3,-0.2],PickupDelay:40}"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:red_tulip\",Count:1b},Motion:[0.15,0.3,0.15],PickupDelay:40}"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:orange_tulip\",Count:1b},Motion:[-0.15,0.3,0.15],PickupDelay:40}"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:white_tulip\",Count:1b},Motion:[0.15,0.3,-0.15],PickupDelay:40}"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:pink_tulip\",Count:1b},Motion:[-0.15,0.3,-0.15],PickupDelay:40}"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:oxeye_daisy\",Count:1b},Motion:[0.25,0.35,0.0],PickupDelay:40}"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:cornflower\",Count:1b},Motion:[-0.25,0.35,0.0],PickupDelay:40}"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:azure_bluet\",Count:1b},Motion:[0.0,0.35,0.25],PickupDelay:40}"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:wither_rose\",Count:1b},Motion:[0.0,0.35,-0.25],PickupDelay:40}"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run particle minecraft:happy_villager ~ ~0.5 ~ 0.7 0.5 0.7 0 20"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run particle minecraft:falling_dust lime_concrete ~ ~0.3 ~ 0.8 0.2 0.8 0 15"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run particle minecraft:composter ~ ~0.3 ~ 0.8 0.2 0.8 0 15"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run playsound minecraft:item.bone_meal.use player @a ~ ~ ~ 1 1"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run playsound minecraft:block.flowering_azalea.break player @a ~ ~ ~ 0.7 1.2"
+      }
+    ]
+  },
+  "cooldown": 200,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+    "bar_index": 5
+  },
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "name": "Цветочный Дар",
+  "description": "Призывает множество разных цветов вокруг себя. Перезарядка: 10 секунд."
+}

@@ -1,0 +1,179 @@
+{
+  "type": "origins:multiple",
+  "toggled": {
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": {
+      "key": "key.origins.secondary_active",
+      "continuous": false
+    }
+  },
+  "resource": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 300,
+    "start_value": 0,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+      "bar_index": 10,
+      "condition": {
+        "type": "origins:resource",
+        "resource": "origins_winter_fabric:fire_fairy/fire_touch_resource",
+        "comparison": ">",
+        "compare_to": 0
+      }
+    }
+  },
+  "toggle_on": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:trigger_cooldown",
+          "power": "origins_winter_fabric:fire_fairy/fire_touch_toggle_off"
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "origins_winter_fabric:fire_fairy/fire_touch_resource",
+          "change": 400
+        },
+        {
+          "type": "origins:toggle",
+          "power": "origins_winter_fabric:fire_fairy/fire_touch_toggled",
+          "value": true
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute at @s run playsound minecraft:entity.blaze.ambient player @a ~ ~ ~ 0.8 1.2"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute at @s run playsound minecraft:block.fire.ambient player @a ~ ~ ~ 1 1.5"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute at @s run particle minecraft:flame ~ ~0.5 ~ 0.3 0.5 0.3 0.05 30"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute at @s run particle minecraft:lava ~ ~0.5 ~ 0.3 0.5 0.3 0.1 10"
+        }
+      ]
+    },
+    "cooldown": 1200,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+      "bar_index": 5
+    },
+    "key": {
+      "key": "key.origins.secondary_active",
+      "continuous": false
+    }
+  },
+  "toggle_off": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "origins_winter_fabric:fire_fairy/fire_touch_resource",
+          "change": 0,
+          "operation": "set"
+        },
+        {
+          "type": "origins:toggle",
+          "power": "origins_winter_fabric:fire_fairy/fire_touch_toggled",
+          "value": false
+        }
+      ]
+    },
+    "cooldown": 0,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+  "particles": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "execute at @s run particle minecraft:flame ~ ~0.5 ~ 0.2 0.2 0.2 0.02 2"
+    },
+    "interval": 5,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "origins_winter_fabric:fire_fairy/fire_touch_resource",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  },
+  "tick_down": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "origins_winter_fabric:fire_fairy/fire_touch_resource",
+          "change": -1
+        },
+        {
+          "type": "origins:if_else",
+          "condition": {
+            "type": "origins:resource",
+            "resource": "origins_winter_fabric:fire_fairy/fire_touch_resource",
+            "comparison": "==",
+            "compare_to": 0
+          },
+          "if_action": {
+            "type": "origins:toggle",
+            "power": "origins_winter_fabric:fire_fairy/fire_touch_toggled",
+            "value": false
+          }
+        }
+      ]
+    },
+    "interval": 1,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "origins_winter_fabric:fire_fairy/fire_touch_resource",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  },
+  "fire_attack": {
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+      "operation": "addition",
+      "value": 1.0
+    },
+    "target_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:set_on_fire",
+          "duration": 5
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute at @s run particle minecraft:flame ~ ~0.5 ~ 0.2 0.5 0.2 0.05 10"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute at @s run playsound minecraft:block.fire.extinguish player @a ~ ~ ~ 0.5 1.5"
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "origins_winter_fabric:fire_fairy/fire_touch_resource",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  },
+  "name": "Пылающие Руки",
+  "description": "На 20 секунд ваши удары наносят дополнительный урон и поджигают цели. Перезарядка: 60 секунд."
+}

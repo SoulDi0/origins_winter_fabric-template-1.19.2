@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "origins_winter_fabric:flower_fairy/small_size",
+    "origins_winter_fabric:flower_fairy/fairy_flight",
+    "origins_winter_fabric:flower_fairy/flower_growth",
+    "origins_winter_fabric:flower_fairy/permanent_fairy_wings"
+  ],
+  "icon": "minecraft:allium",
+  "order": 16,
+  "impact": 2,
+  "name": "Цветочная Фея",
+  "description": "Миниатюрные волшебные существа, обладающие сильной связью с растениями и цветами. Они могут ускорять рост растений, создавать цветочные ковры и околдовывать животных своим очарованием."
+}

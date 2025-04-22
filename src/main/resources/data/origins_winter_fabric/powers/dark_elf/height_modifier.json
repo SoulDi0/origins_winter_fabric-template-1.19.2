@@ -12,6 +12,6 @@
     "type": "origins:execute_command",
     "command": "scale set pehkui:height 1.0 @s"
   },
-  "name": "Taller Form",
-  "description": "Snow Elves are slightly taller than humans."
+  "name": "Высокий",
+  "description": "Вы чуть выше чем человек."
 }

@@ -7,8 +7,8 @@
     "origins_winter_fabric:golden_dwarf/gold_dwarf_sinking",
     "origins_winter_fabric:golden_dwarf/hot_resistance"
   ],
-  "icon": "minecraft:golden_pickaxe",
-  "order": 13,
+  "icon": "origins_winter_fabric:golden_dwarf",
+  "order": 15,
   "impact": 2,
   "name": "Золотой Дворф",
   "description": "Трудолюбивые и почитаемые мастера, обладающие невероятным талантом к созданию прочных предметов. Их умения высоко ценятся в деревнях, а их энергия позволяет им двигаться быстрее обычных существ."

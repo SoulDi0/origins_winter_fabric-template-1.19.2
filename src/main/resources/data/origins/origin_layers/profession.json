@@ -1,6 +1,6 @@
 {
   "replace": false,
-  "name": "Profession",
+  "name": "Профессия",
   "missing_name": "No Profession",
   "missing_description": "You haven't chosen a profession yet.",
   "order": 100,

@@ -146,6 +146,6 @@
     "key": "key.origins.primary_active",
     "continuous": false
   },
-  "name": "Frost Aura",
-  "description": "Press the primary ability key (configurable to R in Minecraft settings) to create a powerful frost aura with a 10-block radius for 6 seconds, heavily slowing enemies and withering them."
+  "name": "Холодная аура",
+  "description": "Создаётся мощная аура радиусом в 10 блоков и длительностью в 6 секунд, она иссушает врагов сильно замедляя их. Перезарядка: 20 секунд."
 }

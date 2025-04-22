@@ -1,0 +1,59 @@
+{
+  "type": "origins:multiple",
+  "flight": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "effect give @s minecraft:levitation 1 0 true"
+        },
+        {
+          "type": "origins:set_fall_distance",
+          "fall_distance": 0
+        }
+      ]
+    },
+    "cooldown": 0,
+    "hud_render": {
+      "should_render": false
+    },
+    "key": {
+      "key": "key.sneak",
+      "continuous": true
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:fluid_height",
+          "fluid": "minecraft:water",
+          "comparison": "==",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:on_block",
+          "inverted": true
+        },
+        {
+          "type": "origins:fall_flying",
+          "inverted": true
+        }
+      ]
+    }
+  },
+  "cancel_fall_damage": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "fall"
+    },
+    "modifier": {
+      "operation": "multiply",
+      "value": 0
+    }
+  },
+  "name": "Огненные Крылья",
+  "description": "Когда вы находитесь в воздухе, нажмите и удерживайте клавишу шифт, чтобы начать парить. При отпускании клавиши полет прекращается."
+}

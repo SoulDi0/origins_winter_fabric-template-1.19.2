@@ -7,7 +7,7 @@
     "origins_winter_fabric:white_dwarf/cold_resistance",
     "origins_winter_fabric:white_dwarf/gold_dwarf_sinking"
   ],
-  "icon": "minecraft:iron_axe",
+  "icon": "origins_winter_fabric:white_dwarf",
   "order": 14,
   "impact": 2,
   "name": "Белый Дворф",

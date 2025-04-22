@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "origins_winter_fabric:fire_fairy/small_size",
+    "origins_winter_fabric:fire_fairy/fireball_shoot",
+    "origins_winter_fabric:fire_fairy/fairy_flight",
+    "origins_winter_fabric:fire_fairy/fire_touch"
+  ],
+  "icon": "minecraft:fire_charge",
+  "order": 17,
+  "impact": 2,
+  "name": "Огненная Фея",
+  "description": "Миниатюрные огненные существа, обладающие сильной связью с огнём и теплом. Они могут стрелять огненными шарами и имеют устойчивость к высоким температурам."
+}

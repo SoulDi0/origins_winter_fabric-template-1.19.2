@@ -10,16 +10,6 @@
       {
         "type": "origins:execute_command",
         "command": "scale set pehkui:width 0.9 @s"
-      },
-
-
-      {
-        "type": "origins:execute_command",
-        "command": "scale set pehkui:motion 1.5 @s"
-      },
-      {
-        "type": "origins:execute_command",
-        "command": "scale set pehkui:jump_height 1.0 @s"
       }
     ]
   },
@@ -33,16 +23,6 @@
       {
         "type": "origins:execute_command",
         "command": "scale set pehkui:width 0.9 @s"
-      },
-
-
-      {
-        "type": "origins:execute_command",
-        "command": "scale set pehkui:motion 1.5 @s"
-      },
-      {
-        "type": "origins:execute_command",
-        "command": "scale set pehkui:jump_height 1.0 @s"
       }
     ]
   },
@@ -75,6 +55,6 @@
       }
     ]
   },
-  "name": "Giant Form",
-  "description": "Crimson Giants stand two and a half blocks tall with an exceptionally wide build. Your long arms allow you to reach blocks from further away, and your long strides make you move faster."
+  "name": "Низкий",
+  "description": "Вы ниже чем обычные существа и можете проходить в один блок."
 }

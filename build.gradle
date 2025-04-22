@@ -69,28 +69,14 @@ processResources {
 	}
 }
 
-sourceSets {
-	main {
-		java.srcDirs = ["src/main/java"]
-	}
-	client {
-		java.srcDirs = ["src/client/java"]
-	}
-}
+
 
 
 tasks.withType(JavaCompile).configureEach {
 	it.options.release = 17
 }
 
-tasks.register("checkDeps") {
-	doLast {
-		println "=== Зависимости compileClasspath ==="
-		configurations.compileClasspath.each {
-			println it
-		}
-	}
-}
+
 
 
 

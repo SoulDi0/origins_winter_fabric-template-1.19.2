@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "origins_winter_fabric:foxy/height_modifier"
+  ],
+  "icon": "minecraft:wheat",
+  "order": 16,
+  "impact": 2,
+  "name": "Лисоморф",
+  "description": "Умные и хитрые существа, отличающиеся ловкостью и быстрой реакцией."
+}

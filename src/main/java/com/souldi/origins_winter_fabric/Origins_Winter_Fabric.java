@@ -1,7 +1,5 @@
 package com.souldi.origins_winter_fabric;
 
-import com.souldi.origins_winter_fabric.item.FairyWingsItem;
-import com.souldi.origins_winter_fabric.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
@@ -28,7 +26,7 @@ public class Origins_Winter_Fabric implements ModInitializer {
 	public static final Item GOLDEN_DWARF = new Item(new FabricItemSettings());
 
 	// Ссылка на FairyWings для использования в FairyClientRegistry
-	public static FairyWingsItem FAIRY_WINGS;
+
 
 	@Override
 	public void onInitialize() {
@@ -54,10 +52,6 @@ public class Origins_Winter_Fabric implements ModInitializer {
 
 		CommandRegistry.init();
 
-		ModItems.registerItems();
-
-		// Сохраняем ссылку на FairyWings из ModItems для доступа в клиентской части
-		FAIRY_WINGS = ModItems.FAIRY_WINGS;
 
 		LOGGER.info("Custom icons, items, armor and commands registered!");
 	}

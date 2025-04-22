@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "origins_winter_fabric:demon/height_modifier"
+  ],
+  "icon": "minecraft:wheat",
+  "order": 11,
+  "impact": 2,
+  "name": "Демон",
+  "description": "существа из глубин ада, неуязвимые к огню и лаве. Обладают способностью поджигать врагов и прекрасно видят в темноте, но уязвимы к воде и холоду."
+}

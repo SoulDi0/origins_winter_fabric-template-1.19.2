@@ -9,7 +9,7 @@
     "origins_winter_fabric:snow_elf/summon_snowmen"
   ],
   "icon": "origins_winter_fabric:snow_elf",
-  "order": 11,
+  "order": 4,
   "impact": 2,
   "name": "Снежный Эльф",
   "description": "Эльфы, адаптировавшиеся к жизни в вечных снегах и обладающие контролем над холодом и льдом. Они быстрее обычных существ, ходят по снегу не проваливаясь и имеют полную защиту от холода."

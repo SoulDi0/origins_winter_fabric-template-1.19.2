@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "origins_winter_fabric:dog/height_modifier"
+  ],
+  "icon": "minecraft:wheat",
+  "order": 15,
+  "impact": 2,
+  "name": "Вирфольф",
+  "description": "Существа с обострёнными чувствами и природной связью с дикой природой."
+}

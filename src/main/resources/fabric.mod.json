@@ -18,9 +18,6 @@
 		"main": [
 			"com.souldi.origins_winter_fabric.Origins_Winter_Fabric"
 		],
-		"client": [
-			"com.souldi.origins_winter_fabric.ClientInitializer"
-		],
 		"fabric-datagen": [
 			"com.souldi.origins_winter_fabric.Origins_Winter_FabricDataGenerator"
 		]

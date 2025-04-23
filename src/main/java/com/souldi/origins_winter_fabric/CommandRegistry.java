@@ -28,7 +28,7 @@ public class CommandRegistry {
                                          CommandRegistryAccess registry,
                                          CommandManager.RegistrationEnvironment environment) {
 
-        // Регистрируем прямую команду для тестирования 
+        // Регистрируем прямую команду для тестирования
         dispatcher.register(
                 CommandManager.literal("ore_detect")
                         .requires(source -> source.hasPermissionLevel(2)) // Требуем права оператора (2)

@@ -1,6 +1,9 @@
 {
   "powers": [
-    "origins_winter_fabric:catmorph/height_modifier"
+    "origins_winter_fabric:catmorph/height_modifier",
+    "origins_winter_fabric:catmorph/fall_immunity_cat",
+    "origins_winter_fabric:catmorph/night_vision_cat",
+    "origins_winter_fabric:catmorph/water_damage"
   ],
   "icon": "minecraft:string",
   "order": 14,

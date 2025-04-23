@@ -1,6 +1,9 @@
 {
   "powers": [
-    "origins_winter_fabric:winter_fairy/small_size"
+    "origins_winter_fabric:winter_fairy/small_size",
+    "origins_winter_fabric:winter_fairy/one_allay",
+    "origins_winter_fabric:winter_fairy/slowness_and_weakness",
+    "origins_winter_fabric:winter_fairy/reduced_health"
 
   ],
   "icon": "origins_winter_fabric:winter_fairy",

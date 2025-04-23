@@ -1,0 +1,36 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "effect give @e[distance=..5,type=!player] minecraft:weakness 10 1 false"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "effect give @e[distance=..5,type=!player] minecraft:slowness 10 0 false"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "particle minecraft:falling_dust minecraft:pink_concrete ~ ~1 ~ 5 5 5 0.1 100 normal"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "playsound minecraft:block.flowering_azalea.break player @a ~ ~ ~ 1 0.8"
+      }
+    ]
+  },
+  "cooldown": 1200,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+    "bar_index": 7
+  },
+  "key": {
+    "key": "key.origins.secondary_active",
+    "continuous": false
+  },
+  "name": "Цветочная пыльца",
+  "description": "Вы распространяете особую пыльцу, которая ослабляет и замедляет всех существ в радиусе 5 блоков на короткое время."
+}

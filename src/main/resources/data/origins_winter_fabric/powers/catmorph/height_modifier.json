@@ -13,11 +13,11 @@
       },
       {
         "type": "origins:execute_command",
-        "command": "scale set pehkui:motion 1.2 @s"
+        "command": "scale set pehkui:motion 1.15 @s"
       },
       {
         "type": "origins:execute_command",
-        "command": "scale set pehkui:jump_height 1.3 @s"
+        "command": "scale set pehkui:jump_height 1.0 @s"
       }
     ]
   },
@@ -34,11 +34,11 @@
       },
       {
         "type": "origins:execute_command",
-        "command": "scale set pehkui:motion 1.2 @s"
+        "command": "scale set pehkui:motion 1.15 @s"
       },
       {
         "type": "origins:execute_command",
-        "command": "scale set pehkui:jump_height 1.3 @s"
+        "command": "scale set pehkui:jump_height 1.0 @s"
       }
     ]
   },

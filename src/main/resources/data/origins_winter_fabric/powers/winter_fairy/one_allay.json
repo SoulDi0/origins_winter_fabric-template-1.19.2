@@ -1,0 +1,32 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "summon minecraft:allay ~ ~1 ~ {CustomName:\"\\\"Снежный помощник\\\"\"}"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "particle minecraft:note ~ ~1 ~ 0.5 0.5 0.5 1 20 normal"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "playsound minecraft:entity.allay.ambient.without_item player @a ~ ~ ~ 1 1"
+      }
+    ]
+  },
+  "cooldown": 2400,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+    "bar_index": 4
+  },
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "name": "Призыв элая",
+  "description": "Вы можете призвать дружественного элая, который будет помогать вам собирать предметы. Способность имеет длительный кулдаун."
+}

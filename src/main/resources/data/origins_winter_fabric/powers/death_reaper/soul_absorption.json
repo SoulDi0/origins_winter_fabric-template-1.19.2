@@ -1,0 +1,34 @@
+{
+  "type": "origins:multiple",
+
+  "setup_scoreboard": {
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+      "type": "origins:execute_command",
+      "command": "scoreboard objectives add reaper_kills totalKillCount"
+    },
+    "entity_action_respawned": {
+      "type": "origins:execute_command",
+      "command": "scoreboard objectives add reaper_kills totalKillCount"
+    },
+    "entity_action_added": {
+      "type": "origins:execute_command",
+      "command": "scoreboard objectives add reaper_kills totalKillCount"
+    },
+    "execute_chosen_when_orb": true,
+    "hidden": true
+  },
+
+  "check_kills": {
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "execute if score @s reaper_kills matches 1.. run function death_reaper:soul_absorption"
+    },
+    "hidden": true
+  },
+
+  "name": "Поглощение душ",
+  "description": "Забирая жизни своих жертв, вы восстанавливаете собственные силы. После каждого убийства вы получаете Регенерацию IV на 4 секунды."
+}

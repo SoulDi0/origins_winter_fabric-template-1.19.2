@@ -1,12 +1,18 @@
 {
-  "type": "origins:conditioned_attribute",
-  "modifier": {
-    "attribute": "minecraft:generic.max_health",
-    "operation": "addition",
-    "value": 0.01,
-    "name": "Flower regen health attribute"
-  },
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 0,
+  "max_stacks": 1,
+  "duration_per_stack": 45,
   "tick_rate": 40,
+  "effects": [
+    {
+      "effect": "minecraft:regeneration",
+      "amplifier": 1,
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": true
+    }
+  ],
   "condition": {
     "type": "origins:block_in_radius",
     "block_condition": {
@@ -17,14 +23,6 @@
     "shape": "cube",
     "comparison": ">=",
     "compare_to": 1
-  },
-  "effect": {
-    "effect": "minecraft:regeneration",
-    "amplifier": 0,
-    "is_ambient": true,
-    "show_particles": false,
-    "show_icon": true,
-    "duration": 45
   },
   "name": "Цветочная регенерация",
   "description": "Находясь рядом с цветами (в радиусе 3 блоков), вы получаете эффект регенерации I."

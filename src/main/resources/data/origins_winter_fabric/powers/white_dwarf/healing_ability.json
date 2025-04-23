@@ -5,7 +5,7 @@
     "actions": [
       {
         "type": "origins:execute_command",
-        "command": "effect give @s minecraft:regeneration 5 1 false"
+        "command": "effect give @s minecraft:regeneration 5 2 false"
       },
       {
         "type": "origins:execute_command",
@@ -28,6 +28,6 @@
     "key": "key.origins.primary_active",
     "continuous": false
   },
-  "name": "Дворфийское Восстановление",
-  "description": "Накладывает эффект Регенерации II на 5 секунд, быстро восстанавливая здоровье. Перезарядка: 60 секунд."
+  "name": "Эйфория",
+  "description": "Накладывает эффект Регенерации III на 5 секунд, быстро восстанавливая здоровье. Перезарядка: 60 секунд."
 }

@@ -1,6 +1,8 @@
 {
   "powers": [
-    "origins_winter_fabric:death_reaper/height_modifier"
+    "origins_winter_fabric:death_reaper/height_modifier",
+    "origins_winter_fabric:death_reaper/increased_damage",
+    "origins_winter_fabric:death_reaper/soul_absorption"
   ],
   "icon": "minecraft:string",
   "order": 13,

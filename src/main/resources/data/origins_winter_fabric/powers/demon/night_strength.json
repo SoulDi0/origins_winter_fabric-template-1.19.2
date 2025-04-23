@@ -1,0 +1,22 @@
+{
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 0,
+  "max_stacks": 1,
+  "duration_per_stack": 45,
+  "tick_rate": 40,
+  "effects": [
+    {
+      "effect": "minecraft:strength",
+      "amplifier": 1,
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": true
+    }
+  ],
+  "condition": {
+    "type": "origins:daytime",
+    "inverted": true
+  },
+  "name": "Ночная сила",
+  "description": "Ваши способности усиливаются в темное время суток. Ночью вы получаете эффект Силы II."
+}

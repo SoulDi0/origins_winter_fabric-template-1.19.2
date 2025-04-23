@@ -24,6 +24,6 @@
       "command": "execute at @s if entity @s[nbt={OnGround:1b}] run particle minecraft:cloud ~ ~0.1 ~ 0.2 0 0.2 0.01 1 normal"
     }
   },
-  "name": "Сила и Стойкость",
+  "name": "Боевая закалка",
   "description": "Благодаря суровой закалке, вы постоянно обладаете эффектами Силы I и Сопротивления I."
 }

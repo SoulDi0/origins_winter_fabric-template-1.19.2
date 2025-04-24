@@ -1,10 +1,12 @@
 package com.souldi.origins_winter_fabric;
 
+import com.souldi.origins_winter_fabric.item.*;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
 import net.fabricmc.loader.api.FabricLoader;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -17,7 +19,6 @@ public class Origins_Winter_Fabric implements ModInitializer {
 	public static final String MOD_ID = "origins_winter_fabric";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-
 	public static final Item DARK_ELF_ICON = new Item(new FabricItemSettings());
 	public static final Item SNOW_ELF = new Item(new FabricItemSettings());
 	public static final Item FOREST_ELF = new Item(new FabricItemSettings());
@@ -28,8 +29,15 @@ public class Origins_Winter_Fabric implements ModInitializer {
 	public static final Item FLOWER_FAIRY = new Item(new FabricItemSettings());
 	public static final Item FIRE_FAIRY = new Item(new FabricItemSettings());
 
-	// Ссылка на FairyWings для использования в FairyClientRegistry
+	// Материал крыльев феи
+	public static final FairyWingsMaterial FAIRY_WINGS_MATERIAL = new FairyWingsMaterial();
 
+	// Крылья зимней феи
+	public static final WinterFairyWingsItem WINTER_FAIRY_WINGS = new WinterFairyWingsItem(
+			FAIRY_WINGS_MATERIAL,
+			ArmorItem.Type.CHESTPLATE,
+			new FabricItemSettings().maxCount(1)
+	);
 
 	@Override
 	public void onInitialize() {
@@ -46,6 +54,7 @@ public class Origins_Winter_Fabric implements ModInitializer {
 			);
 		});
 
+		// Регистрация иконок
 		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "dark_elf_icon"), DARK_ELF_ICON);
 		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "snow_elf"), SNOW_ELF);
 		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "forest_elf"), FOREST_ELF);
@@ -56,8 +65,10 @@ public class Origins_Winter_Fabric implements ModInitializer {
 		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "winter_fairy"), WINTER_FAIRY);
 		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "flower_fairy"), FLOWER_FAIRY);
 
-		CommandRegistry.init();
+		// Регистрация крыльев зимней феи
+		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "winter_fairy_wings"), WINTER_FAIRY_WINGS);
 
+		CommandRegistry.init();
 
 		LOGGER.info("Custom icons, items, armor and commands registered!");
 	}

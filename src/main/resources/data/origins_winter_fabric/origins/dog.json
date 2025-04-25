@@ -1,7 +1,8 @@
 {
   "powers": [
     "origins_winter_fabric:dog/height_modifier",
-    "origins_winter_fabric:dog/permanent_strength"
+    "origins_winter_fabric:dog/permanent_strength",
+    "origins_winter_fabric:dog/speed"
   ],
   "icon": "minecraft:wheat",
   "order": 15,

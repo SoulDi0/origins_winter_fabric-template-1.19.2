@@ -1,0 +1,42 @@
+{
+  "type": "origins:multiple",
+  "burst_speed": {
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:speed",
+            "duration": 100,
+            "amplifier": 0,
+            "show_particles": true,
+            "show_icon": true
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute at @s run particle minecraft:flame ~ ~0.2 ~ 0.2 0.1 0.2 0.05 10"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute at @s run playsound minecraft:block.fire.ambient player @a ~ ~ ~ 0.5 1.2"
+        }
+      ]
+    },
+    "cooldown": 200,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+      "bar_index": 8
+    },
+    "damage_condition": {
+      "type": "origins:amount",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  },
+  "name": "Огненный Порыв",
+  "description": "Получив урон, вы инстинктивно ускоряетесь на 5 секунд, оставляя за собой огненный след. Перезарядка: 10 секунд."
+}

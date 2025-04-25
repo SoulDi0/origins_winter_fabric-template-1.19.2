@@ -2,10 +2,12 @@
   "powers": [
     "origins_winter_fabric:demon/height_modifier",
     "origins_winter_fabric:demon/night_strength",
+    "origins_winter_fabric:demon/fireball_shoot",
     "origins_winter_fabric:demon/permanent_regeneration",
-    "origins_winter_fabric:demon/water_vulnerability"
+    "origins_winter_fabric:demon/water_vulnerability",
+    "origins_winter_fabric:demon/fire_immunity_demon"
   ],
-  "icon": "minecraft:wheat",
+  "icon": "origins_winter_fabric:demon",
   "order": 11,
   "impact": 2,
   "name": "Демон",

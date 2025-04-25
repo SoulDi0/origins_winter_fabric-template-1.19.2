@@ -48,15 +48,14 @@ dependencies {
 	modImplementation files('libs/Origins-1.20.1-1.10.0.jar')
 
 
-	modImplementation "software.bernie.geckolib:geckolib-fabric-1.20.1:4.7.1"
+	modImplementation "software.bernie.geckolib:geckolib-fabric-1.20.1:4.7.1.2"
 
-	modImplementation "net.fabricmc.fabric-api:fabric-particles-v1:0.2.15+3d75e5b490"
-	modImplementation "net.fabricmc.fabric-api:fabric-renderer-api-v1:0.4.18+2efa6deb90"
-	modImplementation "net.fabricmc.fabric-api:fabric-renderer-indigo:0.5.7+2efa6deb90"
-	modImplementation "net.fabricmc.fabric-api:fabric-api:0.67.0+1.19.2"
 
 	modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-base:5.2.0"
 	modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-entity:5.2.0"
+
+
+
 
 
 }

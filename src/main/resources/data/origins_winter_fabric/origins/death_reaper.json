@@ -2,9 +2,12 @@
   "powers": [
     "origins_winter_fabric:death_reaper/height_modifier",
     "origins_winter_fabric:death_reaper/increased_damage",
-    "origins_winter_fabric:death_reaper/soul_absorption"
+    "origins_winter_fabric:death_reaper/soul_absorption",
+    "origins_winter_fabric:death_reaper/night_speed",
+    "origins_winter_fabric:death_reaper/soul_arrow",
+    "origins_winter_fabric:death_reaper/day_weakness"
   ],
-  "icon": "minecraft:string",
+  "icon": "origins_winter_fabric:death_reaper",
   "order": 13,
   "impact": 2,
   "name": "Жнец",

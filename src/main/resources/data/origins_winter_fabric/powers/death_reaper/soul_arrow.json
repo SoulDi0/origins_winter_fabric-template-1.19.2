@@ -1,0 +1,21 @@
+{
+  "type": "origins:fire_projectile",
+  "entity_type": "minecraft:arrow",
+  "cooldown": 400,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+    "bar_index": 3
+  },
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "speed": 3,
+  "divergence": 1,
+  "sound": "minecraft:entity.wither.shoot",
+  "tag": "{CustomPotionEffects:[{Id:20,Amplifier:1,Duration:100}],Color:0}",
+  "damage": 5,
+  "name": "Стрела Иссушения",
+  "description": "Выпускает стрелу с эффектом иссушения, которая причиняет сильный урон и накладывает увядание на цель. Перезарядка: 20 секунд."
+}

@@ -1,10 +1,16 @@
 {
-  "type": "origins:attribute",
-  "modifier": {
-    "attribute": "minecraft:generic.attack_damage",
-    "operation": "addition",
-    "value": 3
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:strength",
+      "duration": 220,
+      "amplifier": 0,
+      "show_particles": false,
+      "show_icon": true
+    }
   },
-  "name": "Цветочная сила",
-  "description": "Ваше тело наполнено природной силой цветов, что увеличивает наносимый вами урон."
+  "interval": 200,
+  "name": "Сила Зверя",
+  "description": "Ваша звериная натура наделяет вас постоянным эффектом Силы I."
 }

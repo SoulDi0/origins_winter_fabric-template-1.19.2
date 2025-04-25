@@ -21,10 +21,10 @@
   "hud_render": {
     "should_render": true,
     "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-    "bar_index": 4
+    "bar_index": 17
   },
   "key": {
-    "key": "key.origins.primary_active",
+    "key": "key.origins.secondary_active",
     "continuous": false
   },
   "name": "Призыв элая",

@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Elf speed bonus",
+    "attribute": "minecraft:generic.movement_speed",
+    "value": 0.1,
+    "operation": "multiply_base"
+  },
+  "name": "Скорость",
+  "description": "Вы от природы на 10% быстрее обычных существ, независимо от окружающих условий."
+}

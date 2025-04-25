@@ -18,6 +18,7 @@
 		"main": [
 			"com.souldi.origins_winter_fabric.Origins_Winter_Fabric"
 		],
+
 		"fabric-datagen": [
 			"com.souldi.origins_winter_fabric.Origins_Winter_FabricDataGenerator"
 		]

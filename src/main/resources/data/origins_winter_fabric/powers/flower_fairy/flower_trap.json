@@ -29,7 +29,7 @@
   "hud_render": {
     "should_render": true,
     "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
-    "bar_index": 9
+    "bar_index": 22
   },
   "name": "Цветочный капкан",
   "description": "Создайте ловушку из цветочных шипов, обездвиживающую всех врагов в кубической области радиусом 5 блоков на короткое время."

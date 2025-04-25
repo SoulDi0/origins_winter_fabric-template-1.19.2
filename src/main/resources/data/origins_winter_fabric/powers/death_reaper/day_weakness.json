@@ -1,0 +1,71 @@
+{
+  "type": "origins:multiple",
+  "day_debuff": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:weakness",
+            "duration": 220,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": true
+          }
+        },
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:slowness",
+            "duration": 220,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": true
+          }
+        }
+      ]
+    },
+    "interval": 10,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:time_of_day",
+          "comparison": "<",
+          "compare_to": 13000
+        },
+        {
+          "type": "origins:time_of_day",
+          "comparison": ">=",
+          "compare_to": 0
+        }
+      ]
+    }
+  },
+  "night_clear": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:clear_effect",
+          "effect": "minecraft:weakness"
+        },
+        {
+          "type": "origins:clear_effect",
+          "effect": "minecraft:slowness"
+        }
+      ]
+    },
+    "interval": 20,
+    "condition": {
+      "type": "origins:time_of_day",
+      "comparison": ">=",
+      "compare_to": 13000
+    }
+  },
+  "name": "Солнечное Ослабление",
+  "description": "Дневной свет ослабляет вашу мощь, накладывая на вас эффекты Слабости I и Замедления I."
+}

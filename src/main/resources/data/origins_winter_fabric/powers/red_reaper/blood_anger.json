@@ -1,0 +1,56 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:strength",
+          "duration": 400,
+          "amplifier": 1,
+          "show_particles": true,
+          "show_icon": true
+        }
+      },
+      {
+        "type": "origins:damage",
+        "amount": 6,
+        "source": {
+          "name": "generic.player_attack",
+          "bypasses_armor": true,
+          "fire": false,
+          "unblockable": true
+        }
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run particle minecraft:crimson_spore ~ ~1 ~ 0.5 0.5 0.5 0.1 50"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run particle minecraft:item minecraft:redstone ~ ~1 ~ 0.3 0.5 0.3 0.1 30"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run playsound minecraft:entity.hoglin.death player @a ~ ~ ~ 0.5 0.7"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run playsound minecraft:block.nether_wart.break player @a ~ ~ ~ 1 0.5"
+      }
+    ]
+  },
+  "cooldown": 1200,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+    "bar_index": 4
+  },
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "name": "Кровавая Ярость",
+  "description": "Пожертвовав 3 сердца своей жизненной силы, вы впадаете в безумную ярость, получая Силу II на 20 секунд. Перезарядка: 60 секунд."
+}

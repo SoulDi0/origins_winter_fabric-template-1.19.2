@@ -6,7 +6,7 @@
     "origins_winter_fabric:snow_elf/height_modifier",
     "origins_winter_fabric:snow_elf/snow_walk",
     "origins_winter_fabric:snow_elf/speed",
-    "origins_winter_fabric:snow_elf/summon_snowmen"
+    "origins_winter_fabric:snow_elf/one_allay"
   ],
   "icon": "origins_winter_fabric:snow_elf",
   "order": 4,

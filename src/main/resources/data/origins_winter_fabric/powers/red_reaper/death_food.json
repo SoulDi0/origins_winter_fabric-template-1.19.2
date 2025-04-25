@@ -1,0 +1,41 @@
+{
+  "type": "origins:multiple",
+  "no_food": {
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+      "type": "origins:food"
+    },
+    "name": "Иная Природа",
+    "description": "Ваша сущность не принимает обычную пищу."
+  },
+  "kill_saturation": {
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:feed",
+          "food": 3,
+          "saturation": 3.0
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute at @s run particle minecraft:crimson_spore ~ ~0.5 ~ 0.3 0.5 0.3 0.02 30"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute at @s run playsound minecraft:entity.player.burp player @a ~ ~ ~ 0.5 0.7"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute at @s run playsound minecraft:block.ancient_debris.break player @a ~ ~ ~ 0.3 0.5"
+        }
+      ]
+    },
+    "cooldown": 1,
+    "name": "Питание Жизненной Силой",
+    "description": "Вы получаете насыщение, убивая других существ, восстанавливая 3 единицы голода за каждое убийство."
+  },
+  "name": "Кровавое Насыщение",
+  "description": "Вы не можете есть обычную пищу, но получаете насыщение, убивая других существ."
+}

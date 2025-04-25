@@ -2,8 +2,8 @@
 	"format_version": "1.8.0",
 	"animations": {
 		"animation.model.new": {
-			"loop": true
+			"loop": true,
+			"bones": {}
 		}
-	},
-	"geckolib_format_version": 2
+	}
 }

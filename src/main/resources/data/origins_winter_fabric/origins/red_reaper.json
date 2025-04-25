@@ -1,8 +1,11 @@
 {
   "powers": [
-    "origins_winter_fabric:red_reaper/height_modifier"
+    "origins_winter_fabric:red_reaper/height_modifier",
+    "origins_winter_fabric:red_reaper/death_food",
+    "origins_winter_fabric:red_reaper/blood_anger",
+    "origins_winter_fabric:red_reaper/red_death"
   ],
-  "icon": "minecraft:string",
+  "icon": "origins_winter_fabric:red_reaper",
   "order": 12,
   "impact": 2,
   "name": "Багрянник",

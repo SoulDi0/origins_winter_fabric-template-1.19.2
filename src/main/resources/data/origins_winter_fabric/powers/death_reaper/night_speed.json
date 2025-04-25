@@ -1,13 +1,13 @@
 {
   "type": "origins:multiple",
-  "night_strength": {
+  "night_speed": {
     "type": "origins:action_over_time",
     "entity_action": {
       "type": "origins:apply_effect",
       "effect": {
-        "effect": "minecraft:strength",
+        "effect": "minecraft:speed",
         "duration": 220,
-        "amplifier": 1,
+        "amplifier": 0,
         "show_particles": false,
         "show_icon": true
       }
@@ -23,7 +23,7 @@
     "type": "origins:action_over_time",
     "entity_action": {
       "type": "origins:clear_effect",
-      "effect": "minecraft:strength"
+      "effect": "minecraft:speed"
     },
     "interval": 20,
     "condition": {
@@ -32,6 +32,6 @@
       "compare_to": 13000
     }
   },
-  "name": "Ночная Сила Жнеца",
-  "description": "Во тьме ночи на вас автоматически накладывается эффект Силы II."
+  "name": "Ночная Поступь",
+  "description": "Во тьме ночи вы двигаетесь быстрее, получая эффект Скорости I."
 }

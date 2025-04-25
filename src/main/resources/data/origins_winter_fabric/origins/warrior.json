@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins_winter_fabric:warrior/scarvenger_warrior"
+
+  ],
+  "icon": "origins_winter_fabric:white_dwarf",
+  "order": 7,
+  "impact": 2,
+  "name": "Воин",
+  "description": "Закалённые в боях воины, способные одолеть любого кто встанет у них на пути. Суровое прошлое сделало их тела выносливее и могущественее."
+}

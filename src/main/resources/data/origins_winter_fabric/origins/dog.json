@@ -2,9 +2,10 @@
   "powers": [
     "origins_winter_fabric:dog/height_modifier",
     "origins_winter_fabric:dog/permanent_strength",
-    "origins_winter_fabric:dog/speed"
+    "origins_winter_fabric:dog/speed",
+    "origins_winter_fabric:dog/meat_diet"
   ],
-  "icon": "minecraft:wheat",
+  "icon": "origins_winter_fabric:dog",
   "order": 15,
   "impact": 2,
   "name": "Вирфольф",

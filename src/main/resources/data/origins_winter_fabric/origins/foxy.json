@@ -1,8 +1,10 @@
 {
   "powers": [
-    "origins_winter_fabric:foxy/height_modifier"
+    "origins_winter_fabric:foxy/height_modifier",
+    "origins_winter_fabric:foxy/poketsteal",
+    "origins_winter_fabric:foxy/meat_diet"
   ],
-  "icon": "minecraft:wheat",
+  "icon": "origins_winter_fabric:foxy",
   "order": 16,
   "impact": 2,
   "name": "Лисоморф",

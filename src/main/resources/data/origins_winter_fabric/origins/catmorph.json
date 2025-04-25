@@ -3,9 +3,10 @@
     "origins_winter_fabric:catmorph/height_modifier",
     "origins_winter_fabric:catmorph/fall_immunity_cat",
     "origins_winter_fabric:catmorph/night_vision_cat",
-    "origins_winter_fabric:catmorph/water_damage"
+    "origins_winter_fabric:catmorph/water_damage",
+    "origins_winter_fabric:catmorph/meat_diet"
   ],
-  "icon": "minecraft:string",
+  "icon": "origins_winter_fabric:catmorph",
   "order": 14,
   "impact": 3,
   "name": "Котоморф",

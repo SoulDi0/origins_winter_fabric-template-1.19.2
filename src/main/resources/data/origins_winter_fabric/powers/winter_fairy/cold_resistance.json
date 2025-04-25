@@ -16,7 +16,7 @@
     "interval": 100,
     "entity_action": {
       "type": "origins:execute_command",
-      "command": "execute as @s run environment protection @s cold 15"
+      "command": "execute as @s run environment protection @s cold 10"
     }
   },
   "environmentz_resistance": {
@@ -24,18 +24,18 @@
     "interval": 150,
     "entity_action": {
       "type": "origins:execute_command",
-      "command": "execute as @s run environment resistance @s cold 15"
+      "command": "execute as @s run environment resistance @s cold 10"
     }
   },
   "initial_setup": {
     "type": "origins:action_on_callback",
     "entity_action_chosen": {
       "type": "origins:execute_command",
-      "command": "execute as @s run environment protection @s cold 15"
+      "command": "execute as @s run environment protection @s cold 10"
     },
     "entity_action_respawned": {
       "type": "origins:execute_command",
-      "command": "execute as @s run environment protection @s cold 15"
+      "command": "execute as @s run environment protection @s cold 10"
     }
   },
   "cold_slowness_immunity": {
@@ -95,5 +95,5 @@
     }
   },
   "name": "Морозоустойчивость",
-  "description": "Вы адаптированы к холоду, получая защиту от низких температур."
+  "description": "Снежные эльфы адаптированы к холоду, получая защиту от низких температур."
 }

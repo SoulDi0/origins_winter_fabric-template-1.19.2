@@ -22,13 +22,11 @@ repositories {
 	maven { url = 'https://cursemaven.com' } // Альтернативный источник модов
 }
 
+// Убираем разделение на клиент/сервер, используем только один sourceSet
 loom {
-	splitEnvironmentSourceSets()
-
 	mods {
 		"origins_winter_fabric" {
 			sourceSet sourceSets.main
-			sourceSet sourceSets.client
 		}
 	}
 }
@@ -43,21 +41,13 @@ dependencies {
 	// Локальные зависимости напрямую из папки libs
 	modImplementation files('libs/extrakeybinds-0.5.0+1.17-1.19.4.jar')
 	modImplementation files('libs/environmentz-2.0.8.jar')
-	modImplementation files('libs/Medieval Origins Revival-6.5.1+1.20.1-fabric.jar')
 	modImplementation files('libs/Pehkui-3.8.3+1.14.4-1.21.jar')
 	modImplementation files('libs/Origins-1.20.1-1.10.0.jar')
 
-
 	modImplementation "software.bernie.geckolib:geckolib-fabric-1.20.1:4.7.1.2"
-
 
 	modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-base:5.2.0"
 	modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-entity:5.2.0"
-
-
-
-
-
 }
 
 processResources {
@@ -68,16 +58,9 @@ processResources {
 	}
 }
 
-
-
-
 tasks.withType(JavaCompile).configureEach {
 	it.options.release = 17
 }
-
-
-
-
 
 java {
 	withSourcesJar()

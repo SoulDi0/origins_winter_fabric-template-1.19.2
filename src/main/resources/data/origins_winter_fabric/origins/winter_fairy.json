@@ -3,7 +3,8 @@
     "origins_winter_fabric:winter_fairy/small_size",
     "origins_winter_fabric:winter_fairy/summon_snowmen",
     "origins_winter_fabric:winter_fairy/slowness_and_weakness",
-    "origins_winter_fabric:winter_fairy/reduced_health"
+    "origins_winter_fabric:winter_fairy/reduced_health",
+    "origins_winter_fabric:winter_fairy/cold_resistance"
 
   ],
   "icon": "origins_winter_fabric:winter_fairy",

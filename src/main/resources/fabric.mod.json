@@ -17,10 +17,6 @@
 	"entrypoints": {
 		"main": [
 			"com.souldi.origins_winter_fabric.Origins_Winter_Fabric"
-		],
-
-		"fabric-datagen": [
-			"com.souldi.origins_winter_fabric.Origins_Winter_FabricDataGenerator"
 		]
 	},
 	"mixins": [
@@ -31,7 +27,6 @@
 		"java": ">=17",
 		"fabric-api": ">=0.83.0",
 		"origins": ">=1.10.0",
-		"medievalorigins": "*",
 		"pehkui": ">=3.8.3",
 		"environmentz": "*"
 	},

@@ -1,72 +1,32 @@
 package com.souldi.origins_winter_fabric;
 
+import com.souldi.origins_winter_fabric.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
 import net.fabricmc.loader.api.FabricLoader;
-import net.minecraft.item.Item;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import software.bernie.geckolib.GeckoLib;
 
-public class Origins_Winter_Fabric implements ModInitializer {
+public final class Origins_Winter_Fabric implements ModInitializer {
 	public static final String MOD_ID = "origins_winter_fabric";
-	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+	public static final Logger LOG = LoggerFactory.getLogger(MOD_ID);
 
-	public static final Item DARK_ELF_ICON = new Item(new FabricItemSettings());
-	public static final Item SNOW_ELF = new Item(new FabricItemSettings());
-	public static final Item FOREST_ELF = new Item(new FabricItemSettings());
-	public static final Item WHITE_DWARF = new Item(new FabricItemSettings());
-	public static final Item GRAY_DWARF = new Item(new FabricItemSettings());
-	public static final Item GOLDEN_DWARF = new Item(new FabricItemSettings());
-	public static final Item WINTER_FAIRY = new Item(new FabricItemSettings());
-	public static final Item FLOWER_FAIRY = new Item(new FabricItemSettings());
-	public static final Item FIRE_FAIRY = new Item(new FabricItemSettings());
-	public static final Item RED_REAPER = new Item(new FabricItemSettings());
-	public static final Item DEATH_REAPER = new Item(new FabricItemSettings());
-	public static final Item DEMON = new Item(new FabricItemSettings());
-
-	@Override
-	public void onInitialize() {
-		LOGGER.info("Origins Winter Fabric mod is initializing!");
-
-		// Инициализация GeckoLib (общая для клиента и сервера)
-		GeckoLib.initialize();
-
-		FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
-			ResourceManagerHelper.registerBuiltinResourcePack(
-					new Identifier(MOD_ID, "origins_data"),
-					modContainer,
-					ResourcePackActivationType.ALWAYS_ENABLED
-			);
-		});
-
-		// Регистрация иконок
-		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "dark_elf_icon"), DARK_ELF_ICON);
-		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "snow_elf"), SNOW_ELF);
-		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "forest_elf"), FOREST_ELF);
-		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "white_dwarf"), WHITE_DWARF);
-		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "gray_dwarf"), GRAY_DWARF);
-		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "golden_dwarf"), GOLDEN_DWARF);
-		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "fire_fairy"), FIRE_FAIRY);
-		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "winter_fairy"), WINTER_FAIRY);
-		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "flower_fairy"), FLOWER_FAIRY);
-		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "red_reaper"), RED_REAPER);
-		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "death_reaper"), DEATH_REAPER);
-		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "demon"), DEMON);
-
-		CommandRegistry.init();
-
-
-
-		LOGGER.info("Custom icons, items, armor and commands registered!");
+	public static Identifier id(String path) {
+		return new Identifier(MOD_ID, path);
 	}
 
-	public static Identifier identifier(String path) {
-		return new Identifier(MOD_ID, path);
+	@Override public void onInitialize() {
+		LOG.info("Initializing Origins Winter Fabric …");
+		GeckoLib.initialize();
+
+		FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(mod ->
+				ResourceManagerHelper.registerBuiltinResourcePack(id("origins_data"), mod, ResourcePackActivationType.ALWAYS_ENABLED));
+
+		ModItems.register();
+		CommandRegistry.init();
+		LOG.info("All custom icons, fairy armour & commands registered 🙂");
 	}
 }

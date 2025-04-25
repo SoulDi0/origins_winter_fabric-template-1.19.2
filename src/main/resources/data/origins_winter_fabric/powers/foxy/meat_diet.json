@@ -1,0 +1,17 @@
+{
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:food"
+      },
+      {
+        "type": "origins:meat",
+        "inverted": true
+      }
+    ]
+  },
+  "name": "Хищная диета",
+  "description": "Вы можете есть только мясо. Вся остальная пища несъедобна."
+}

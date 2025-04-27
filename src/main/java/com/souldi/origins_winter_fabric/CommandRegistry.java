@@ -33,7 +33,7 @@ public class CommandRegistry {
                 CommandManager.literal("ore_detect")
                         .requires(source -> source.hasPermissionLevel(2)) // Требуем права оператора (2)
                         .executes(context -> executeOreDetect(context, 10, 200))
-                        .then(CommandManager.argument("radius", IntegerArgumentType.integer(1, 20))
+                        .then(CommandManager.argument("radius", IntegerArgumentType.integer(1, 5))
                                 .executes(context -> {
                                     int radius = IntegerArgumentType.getInteger(context, "radius");
                                     return executeOreDetect(context, radius, 200);
@@ -49,7 +49,7 @@ public class CommandRegistry {
                                     ServerCommandSource source = context.getSource();
                                     if (source.getPlayer() != null) {
                                         System.out.println("[Origins Winter Fabric] Вызвана функция call_ore_detector");
-                                        return executeOreDetect(context, 10, 200);
+                                        return executeOreDetect(context, 5, 200);
                                     } else {
                                         source.sendError(Text.literal("Эту команду может использовать только игрок"));
                                         return 0;

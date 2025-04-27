@@ -4,7 +4,9 @@
     "origins_winter_fabric:winter_fairy/summon_snowmen",
     "origins_winter_fabric:winter_fairy/slowness_and_weakness",
     "origins_winter_fabric:winter_fairy/reduced_health",
-    "origins_winter_fabric:winter_fairy/cold_resistance"
+    "origins_winter_fabric:winter_fairy/cold_resistance",
+    "origins_winter_fabric:winter_fairy/fairy_flight",
+    "origins_winter_fabric:winter_fairy/fairy_wings"
 
   ],
   "icon": "origins_winter_fabric:winter_fairy",

@@ -2,6 +2,9 @@
 	"required": true,
 	"package": "com.souldi.origins_winter_fabric.mixin",
 	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"FairyArmorRenderMixin"
+	],
 	"mixins": [
 	],
 	"injectors": {

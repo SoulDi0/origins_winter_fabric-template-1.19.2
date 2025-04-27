@@ -3,7 +3,445 @@
 	"animations": {
 		"idle": {
 			"loop": true,
-			"bones": {}
+			"bones": {
+				"Warewolf": {
+					"position": {
+						"vector": [0, -4, 0]
+					}
+				},
+				"LeftShin": {
+					"rotation": {
+						"vector": [13.38172, 7.50571, 10.02024]
+					}
+				},
+				"LeftFeet": {
+					"rotation": {
+						"vector": [-18.70764, -9.40119, 8.18408]
+					}
+				},
+				"RightShin": {
+					"rotation": {
+						"vector": [13.38172, -7.50571, -10.02024]
+					}
+				},
+				"RightFeet": {
+					"rotation": {
+						"vector": [-18.70764, 9.40119, -8.18408]
+					}
+				},
+				"Pelvis": {
+					"rotation": {
+						"vector": [37.5, 0, 0]
+					},
+					"position": {
+						"vector": [0, 2, 0]
+					}
+				},
+				"Torso": {
+					"rotation": {
+						"vector": [-10, 0, 0]
+					},
+					"position": {
+						"vector": [0, -4, -2]
+					}
+				},
+				"Head": {
+					"rotation": {
+						"vector": [-30, 0, 0]
+					},
+					"position": {
+						"vector": [0, 2, -2.5]
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"vector": [-45.31728, -10.99287, 19.86597]
+					},
+					"position": {
+						"vector": [0, -1, -2]
+					}
+				},
+				"LeftLoweArm": {
+					"rotation": {
+						"vector": [0.91797, -3.90056, -32.73976]
+					},
+					"position": {
+						"vector": [0, 1, 0]
+					}
+				},
+				"bone2": {
+					"rotation": {
+						"vector": [11.33612, -13.5218, 4.96456]
+					},
+					"position": {
+						"vector": [-3, 0, 0]
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"vector": [-46.29799, 13.14497, -15.60437]
+					},
+					"position": {
+						"vector": [0, -1, -2]
+					}
+				},
+				"RightLoweArm": {
+					"rotation": {
+						"vector": [2.69129, 3.14005, 22.65943]
+					},
+					"position": {
+						"vector": [0, 1, 0]
+					}
+				},
+				"bone6": {
+					"rotation": {
+						"vector": [11.33612, 13.5218, -4.96456]
+					},
+					"position": {
+						"vector": [3, 0, 0]
+					}
+				},
+				"LeftLeg": {
+					"position": {
+						"vector": [-0.5, 0, 0]
+					}
+				},
+				"RightLeg": {
+					"position": {
+						"vector": [0.5, 0, 0]
+					}
+				},
+				"bone3": {
+					"rotation": {
+						"vector": [0, 0, -7.5]
+					}
+				},
+				"bone5": {
+					"rotation": {
+						"vector": [-5.04608, -1.08089, 14.88206]
+					}
+				},
+				"bone11": {
+					"rotation": {
+						"vector": [0, 0, 25]
+					}
+				},
+				"bone13": {
+					"rotation": {
+						"vector": [0, 0, 20]
+					}
+				},
+				"bone7": {
+					"rotation": {
+						"vector": [0, 0, 7.5]
+					}
+				},
+				"bone9": {
+					"rotation": {
+						"vector": [-5.04608, 1.08089, -14.88206]
+					}
+				},
+				"bone10": {
+					"rotation": {
+						"vector": [0, 0, -25]
+					}
+				},
+				"bone12": {
+					"rotation": {
+						"vector": [0, 0, -20]
+					}
+				}
+			}
+		},
+		"attacks-1.model.new": {
+			"loop": true,
+			"bones": {
+				"Warewolf": {
+					"rotation": {
+						"vector": [0, -32.5, 0]
+					}
+				},
+				"LeftLeg": {
+					"rotation": {
+						"vector": [0, -12.5, 0]
+					}
+				},
+				"RightLeg": {
+					"rotation": {
+						"vector": [55, 0, 0]
+					}
+				},
+				"Pelvis": {
+					"rotation": {
+						"vector": [-27.5, 0, 0]
+					}
+				},
+				"Torso": {
+					"rotation": {
+						"vector": [0, -52.5, 0]
+					}
+				},
+				"Head": {
+					"rotation": {
+						"vector": [47.5, 22.5, 0]
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"vector": [-271.12701, -45.15358, 166.72264]
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"vector": [62.5, 0, 0]
+					}
+				}
+			}
+		},
+		"attacks-2.model.new2": {
+			"loop": true,
+			"bones": {
+				"Warewolf": {
+					"position": {
+						"vector": [0, -6, 0]
+					}
+				},
+				"LeftShin": {
+					"rotation": {
+						"vector": [20, 0, 0]
+					}
+				},
+				"LeftFeet": {
+					"rotation": {
+						"vector": [-17.5, 0, 0]
+					}
+				},
+				"RightLeg": {
+					"rotation": {
+						"vector": [20.87563, 44.89938, 32.37258]
+					},
+					"position": {
+						"vector": [0, 0, 4]
+					}
+				},
+				"RightShin": {
+					"rotation": {
+						"vector": [22.5, 0, 0]
+					}
+				},
+				"RightFeet": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"Torso": {
+					"rotation": {
+						"vector": [7.11432, 41.92831, 24.75948]
+					}
+				},
+				"Head": {
+					"rotation": {
+						"vector": [36.98317, -33.04945, -25.02596]
+					}
+				},
+				"Jaw": {
+					"rotation": {
+						"vector": [-30, 0, 0]
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"vector": [0, 12.5, 0]
+					},
+					"position": {
+						"vector": [0, 0, -6]
+					}
+				},
+				"LeftLoweArm": {
+					"rotation": {
+						"vector": [-112.5, 0, 0]
+					}
+				},
+				"bone2": {
+					"rotation": {
+						"vector": [7.45556, -0.49043, 68.12079]
+					}
+				},
+				"bone3": {
+					"rotation": {
+						"vector": [0, 0, 35]
+					}
+				},
+				"bone5": {
+					"rotation": {
+						"vector": [0, 30, 0]
+					}
+				},
+				"bone11": {
+					"rotation": {
+						"vector": [-1.95105, 1.20387, 33.4769]
+					}
+				},
+				"bone13": {
+					"rotation": {
+						"vector": [0, 0, 55]
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"vector": [75.55492, 23.39756, 137.60545]
+					},
+					"position": {
+						"vector": [-5, 3, 0]
+					}
+				},
+				"RightLoweArm": {
+					"rotation": {
+						"vector": [-27.5, 0, 0]
+					}
+				},
+				"bone6": {
+					"rotation": {
+						"vector": [10, 0, 37.5]
+					}
+				},
+				"bone7": {
+					"rotation": {
+						"vector": [-26.81303, -19.09208, 32.09079]
+					}
+				},
+				"bone9": {
+					"rotation": {
+						"vector": [-27.5, 40, 0]
+					}
+				},
+				"bone10": {
+					"rotation": {
+						"vector": [0, 0, 12.5]
+					}
+				},
+				"bone12": {
+					"rotation": {
+						"vector": [40.144, 22.32924, 40.74955]
+					}
+				}
+			}
+		},
+		"attacks-3.model.new2": {
+			"loop": true,
+			"bones": {
+				"RightLeg": {
+					"rotation": {
+						"vector": [7.5, 0, 0]
+					}
+				},
+				"RightShin": {
+					"rotation": {
+						"vector": [40, 0, 0]
+					}
+				},
+				"Pelvis": {
+					"rotation": {
+						"vector": [17.5, 0, 0]
+					}
+				},
+				"Torso": {
+					"rotation": {
+						"vector": [5.10443, 7.32123, 1.63219]
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"vector": [-89.65467, -13.90007, -5.66252]
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"vector": [-94.35936, 19.10839, 5.96712]
+					}
+				}
+			}
+		},
+		"peeking from the tree, peeking from the window thats all.model.new": {
+			"loop": true,
+			"bones": {
+				"Warewolf": {
+					"rotation": {
+						"vector": [0, 0, -7.5]
+					}
+				},
+				"RightLeg": {
+					"rotation": {
+						"vector": [0, 0, 12.5]
+					}
+				},
+				"Torso": {
+					"rotation": {
+						"vector": [0, 0, -15]
+					}
+				},
+				"Head": {
+					"rotation": {
+						"vector": [-1.82767, 18.16674, 18.37754]
+					}
+				},
+				"LeftLoweArm": {
+					"rotation": {
+						"vector": [-40, 0, 0]
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"vector": [-70, 0, 0]
+					},
+					"position": {
+						"vector": [0, 5, 1]
+					}
+				},
+				"RightLoweArm": {
+					"rotation": {
+						"vector": [-27.5, 0, 0]
+					}
+				},
+				"bone6": {
+					"rotation": {
+						"vector": [26.94093, -5.73576, 31.12501]
+					}
+				}
+			}
+		},
+		"animation.model.new": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"bone2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [0, 15, 0]
+						},
+						"2.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"bone": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [0, -15, 0]
+						},
+						"2.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
 		}
-	}
+	},
+	"geckolib_format_version": 2
 }

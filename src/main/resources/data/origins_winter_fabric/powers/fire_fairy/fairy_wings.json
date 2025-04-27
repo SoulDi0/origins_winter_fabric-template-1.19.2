@@ -1,0 +1,71 @@
+{
+  "type": "origins:multiple",
+  "equip_wings": {
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "chest",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "item": "origins_winter_fabric:fire_fairy_chestplate"
+          }
+        }
+      },
+      "if_action": {
+        "type": "origins:nothing"
+      },
+      "else_action": {
+        "type": "origins:execute_command",
+        "command": "item replace entity @s armor.chest with origins_winter_fabric:fire_fairy_chestplate{Unbreakable:1b,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s}],permanent_wings:1b}",
+        "permission_level": 4
+      }
+    }
+  },
+  "check_respawn": {
+    "type": "origins:action_on_callback",
+    "entity_action_respawned": {
+      "type": "origins:execute_command",
+      "command": "item replace entity @s armor.chest with origins_winter_fabric:fire_fairy_chestplate{Unbreakable:1b,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s}],permanent_wings:1b}",
+      "permission_level": 4
+    }
+  },
+  "check_join": {
+    "type": "origins:action_when_join_game",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "item replace entity @s armor.chest with origins_winter_fabric:fire_fairy_chestplate{Unbreakable:1b,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s}],permanent_wings:1b}",
+      "permission_level": 4
+    }
+  },
+  "check_origin": {
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+      "type": "origins:execute_command",
+      "command": "item replace entity @s armor.chest with origins_winter_fabric:fire_fairy_chestplate{Unbreakable:1b,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s}],permanent_wings:1b}",
+      "permission_level": 4
+    }
+  },
+  "death_cleanup": {
+    "type": "origins:action_on_callback",
+    "entity_action_death": {
+      "type": "origins:execute_command",
+      "command": "execute at @s run data merge entity @e[type=item,nbt={Item:{id:\"origins_winter_fabric:fire_fairy_chestplate\"}},distance=..20,limit=1] {Age:5999,PickupDelay:32767}",
+      "permission_level": 4
+    }
+  },
+  "global_cleanup": {
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "execute as @e[type=item,nbt={Item:{id:\"origins_winter_fabric:fire_fairy_chestplate\"}}] run data merge entity @s {Age:5999,PickupDelay:32767}",
+      "permission_level": 4
+    }
+  },
+  "name": "Врожденные крылья",
+  "description": "Фея всегда рождается с крыльями, которые невозможно снять. Они остаются с ней даже после смерти."
+}

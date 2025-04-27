@@ -1,6 +1,7 @@
 package com.souldi.origins_winter_fabric;
 
 import com.souldi.origins_winter_fabric.command.FairyWingsCommand;
+import com.souldi.origins_winter_fabric.event.WingsRemovalHandler;
 import com.souldi.origins_winter_fabric.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
@@ -29,6 +30,7 @@ public final class Origins_Winter_Fabric implements ModInitializer {
 		ModItems.register();
 		CommandRegistry.init();
 		FairyWingsCommand.init();
+		WingsRemovalHandler.register();
 		LOG.info("All custom icons, fairy armour & commands registered 🙂");
 	}
 }

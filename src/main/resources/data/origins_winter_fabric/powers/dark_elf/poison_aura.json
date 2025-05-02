@@ -25,13 +25,13 @@
   },
   "cooldown": 600,
   "hud_render": {
-    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-    "bar_index": 20
+    "sprite_location": "origins_winter_fabric:textures/gui/resource_bar_01.png",
+    "bar_index": 8
   },
   "key": {
     "key": "key.origins.primary_active",
     "continuous": false
   },
   "name": "Удушающая тьма",
-  "description": "Способность накладывает слабость и отравление на всех существ в радиусе 5 блоков. Перезарядка: 30 секунд"
+  "description": "Темные эльфы заядлые охотники, и умельцы в своем деле, при охоте они применяют способность накладывания слабости и отравления в радиусе 5 блоков, что позволяет им более эффективно справляться со своей добычей. Перезарядка: 30 секунд"
 }

@@ -4,11 +4,13 @@
     "origins_winter_fabric:catmorph/fall_immunity_cat",
     "origins_winter_fabric:catmorph/night_vision_cat",
     "origins_winter_fabric:catmorph/water_damage",
-    "origins_winter_fabric:catmorph/meat_diet"
+    "origins_winter_fabric:catmorph/meat_diet",
+    "origins_winter_fabric:catmorph/jump_jump",
+    "origins_winter_fabric:catmorph/cold_resistance"
   ],
   "icon": "origins_winter_fabric:catmorph",
   "order": 14,
-  "impact": 3,
+  "impact": 2,
   "name": "Котоморф",
   "description": "Проворные существа с кошачьими инстинктами и отличной гибкостью."
 }

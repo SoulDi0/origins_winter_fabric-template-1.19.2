@@ -1,0 +1,40 @@
+{
+  "origin.origins_winter_fabric.catmorph.name": "Catmorph",
+  "origin.origins_winter_fabric.catmorph.description": "Agile creatures with cat-like instincts and excellent flexibility.",
+
+  "origin.origins_winter_fabric.death_reaper.name": "Death Reaper",
+  "origin.origins_winter_fabric.death_reaper.description": "Creatures from the underworld that have come to the upper world. They are accustomed to taking souls and are very dangerous in combat.",
+
+  "origin.origins_winter_fabric.demon.name": "Demon",
+  "origin.origins_winter_fabric.demon.description": "Creatures from the depths of hell, unaffected by fire and lava.",
+
+  "origin.origins_winter_fabric.dog.name": "Werewolf",
+  "origin.origins_winter_fabric.dog.description": "Creatures with heightened senses and a connection to the wild.",
+
+  "origin.origins_winter_fabric.fire_fairy.name": "Fire Fairy",
+  "origin.origins_winter_fabric.fire_fairy.description": "Miniature fiery creatures with a strong connection to fire and heat.",
+
+  "origin.origins_winter_fabric.flower_fairy.name": "Flower Fairy",
+  "origin.origins_winter_fabric.flower_fairy.description": "Miniature magical creatures with a strong connection to plants and flowers.",
+
+  "origin.origins_winter_fabric.forest_elf.name": "Forest Elf",
+  "origin.origins_winter_fabric.forest_elf.description": "Elves living in harmony with nature and forest creatures.",
+
+  "origin.origins_winter_fabric.foxy.name": "Foxmorph",
+  "origin.origins_winter_fabric.foxy.description": "Smart and cunning creatures known for their agility and quick reflexes.",
+
+  "origin.origins_winter_fabric.golden_dwarf.name": "Golden Dwarf",
+  "origin.origins_winter_fabric.golden_dwarf.description": "Hardworking and respected masters with an incredible talent for creating durable items.",
+
+  "origin.origins_winter_fabric.gray_dwarf.name": "Gray Dwarf",
+  "origin.origins_winter_fabric.gray_dwarf.description": "Ancient mountain cave dwellers, masters of mining ores and stone.",
+
+  "origin.origins_winter_fabric.red_reaper.name": "Crimson Reaper",
+  "origin.origins_winter_fabric.red_reaper.description": "Blood-thirsty creatures that feed in battle, making them unmatched fighters.",
+
+  "origin.origins_winter_fabric.snow_elf.name": "Snow Elf",
+  "origin.origins_winter_fabric.snow_elf.description": "Creatures hardened by harsh winter conditions, as elegant as they are dangerous.",
+
+  "origin.origins_winter_fabric.winter_fairy.name": "Winter Fairy",
+  "origin.origins_winter_fabric.winter_fairy.description": "Miniature winter creatures with a strong connection to frost."
+}

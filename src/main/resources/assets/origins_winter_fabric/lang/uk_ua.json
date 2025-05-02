@@ -1,0 +1,40 @@
+{
+  "origin.origins_winter_fabric.catmorph.name": "Котоморф",
+  "origin.origins_winter_fabric.catmorph.description": "Спритні істоти з котячими інстинктами та відмінною гнучкістю.",
+
+  "origin.origins_winter_fabric.death_reaper.name": "Жнець",
+  "origin.origins_winter_fabric.death_reaper.description": "Істоти з самого пекла, що прийшли у верхній світ. Вони, звиклі забирати чужі душі, дуже небезпечні в бою.",
+
+  "origin.origins_winter_fabric.demon.name": "Демон",
+  "origin.origins_winter_fabric.demon.description": "Істоти з глибин пекла, яким ні по чому вогонь та лава.",
+
+  "origin.origins_winter_fabric.dog.name": "Вовкулака",
+  "origin.origins_winter_fabric.dog.description": "Істоти з загостреними чуттями та зв'язком з дикою природою.",
+
+  "origin.origins_winter_fabric.fire_fairy.name": "Вогняна Фея",
+  "origin.origins_winter_fabric.fire_fairy.description": "Мініатюрні вогняні істоти, що мають сильний зв'язок з вогнем та теплом.",
+
+  "origin.origins_winter_fabric.flower_fairy.name": "Квіткова Фея",
+  "origin.origins_winter_fabric.flower_fairy.description": "Мініатюрні чарівні істоти, що мають сильний зв'язок з рослинами та квітами.",
+
+  "origin.origins_winter_fabric.forest_elf.name": "Лісовий Ельф",
+  "origin.origins_winter_fabric.forest_elf.description": "Ельфи, що живуть у гармонії з природою та лісовими створіннями.",
+
+  "origin.origins_winter_fabric.foxy.name": "Лисоморф",
+  "origin.origins_winter_fabric.foxy.description": "Розумні та хитрі істоти, що відрізняються спритністю та швидкою реакцією.",
+
+  "origin.origins_winter_fabric.golden_dwarf.name": "Золотий Гном",
+  "origin.origins_winter_fabric.golden_dwarf.description": "Працьовиті та шановані майстри, що володіють неймовірним талантом до створення міцних предметів.",
+
+  "origin.origins_winter_fabric.gray_dwarf.name": "Сірий Гном",
+  "origin.origins_winter_fabric.gray_dwarf.description": "Давні мешканці гірських печер, майстри видобутку руд та каменю.",
+
+  "origin.origins_winter_fabric.red_reaper.name": "Багрянник",
+  "origin.origins_winter_fabric.red_reaper.description": "Істоти, що жадають крові, вони живляться в боях, що робить їх неперевершеними бійцями.",
+
+  "origin.origins_winter_fabric.snow_elf.name": "Сніговий Ельф",
+  "origin.origins_winter_fabric.snow_elf.description": "Істоти, загартовані суворими погодними умовами зими, такі ж елегантні, як і небезпечні.",
+
+  "origin.origins_winter_fabric.winter_fairy.name": "Снігова Фея",
+  "origin.origins_winter_fabric.winter_fairy.description": "Мініатюрні зимові істоти, що мають сильний зв'язок з морозом."
+}

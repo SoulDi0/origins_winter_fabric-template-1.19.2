@@ -1,10 +1,10 @@
 {
   "type": "origins:multiple",
-  "vanilla_hot_protection": {
+  "vanilla_cold_protection": {
     "type": "origins:modify_damage_taken",
     "damage_condition": {
       "type": "origins:name",
-      "name": "on_fire"
+      "name": "freeze"
     },
     "modifier": {
       "operation": "multiply_total",
@@ -16,7 +16,7 @@
     "interval": 100,
     "entity_action": {
       "type": "origins:execute_command",
-      "command": "execute as @s run environment protection @s hot 15"
+      "command": "execute as @s run environment protection @s cold 10"
     }
   },
   "environmentz_resistance": {
@@ -24,21 +24,21 @@
     "interval": 150,
     "entity_action": {
       "type": "origins:execute_command",
-      "command": "execute as @s run environment resistance @s hot 15"
+      "command": "execute as @s run environment resistance @s cold 10"
     }
   },
   "initial_setup": {
     "type": "origins:action_on_callback",
     "entity_action_chosen": {
       "type": "origins:execute_command",
-      "command": "execute as @s run environment protection @s hot 15"
+      "command": "execute as @s run environment protection @s cold 10"
     },
     "entity_action_respawned": {
       "type": "origins:execute_command",
-      "command": "execute as @s run environment protection @s hot 15"
+      "command": "execute as @s run environment protection @s cold 10"
     }
   },
-  "hot_slowness_immunity": {
+  "cold_slowness_immunity": {
     "type": "origins:effect_immunity",
     "effects": [
       "minecraft:slowness"
@@ -50,34 +50,14 @@
           "type": "origins:biome",
           "condition": {
             "type": "origins:category",
-            "category": "desert"
-          }
-        },
-        {
-          "type": "origins:biome",
-          "condition": {
-            "type": "origins:category",
-            "category": "nether"
+            "category": "icy"
           }
         },
         {
           "type": "origins:block_in_radius",
           "block_condition": {
-            "type": "origins:or",
-            "conditions": [
-              {
-                "type": "origins:block",
-                "block": "minecraft:fire"
-              },
-              {
-                "type": "origins:block",
-                "block": "minecraft:lava"
-              },
-              {
-                "type": "origins:block",
-                "block": "minecraft:magma_block"
-              }
-            ]
+            "type": "origins:in_tag",
+            "tag": "minecraft:snow"
           },
           "radius": 3,
           "shape": "cube",
@@ -89,7 +69,7 @@
   },
   "visual_feedback": {
     "type": "origins:particle",
-    "particle": "minecraft:flame",
+    "particle": "minecraft:snowflake",
     "frequency": 10,
     "count": 1,
     "speed": 0.0,
@@ -105,25 +85,15 @@
           "type": "origins:biome",
           "condition": {
             "type": "origins:category",
-            "category": "desert"
+            "category": "icy"
           }
         },
         {
-          "type": "origins:biome",
-          "condition": {
-            "type": "origins:category",
-            "category": "nether"
-          }
-        },
-        {
-          "type": "origins:on_fire"
+          "type": "origins:in_rain"
         }
       ]
     }
   },
-  "fire_immunity": {
-    "type": "origins:fire_immunity"
-  },
-  "name": "Жароустойчивость",
-  "description": "Вы адаптированы к высоким температурам."
+  "name": "Морозоустойчивость",
+  "description": "Снежные эльфы адаптированы к холоду, получая защиту от низких температур."
 }

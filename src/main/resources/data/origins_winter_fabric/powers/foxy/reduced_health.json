@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "operation": "addition",
+    "value": -2
+  },
+  "update_health": true,
+  "name": "Хрупкое телосложение",
+  "description": "Ваше тело более хрупкое, чем у обычных существ, из-за чего у вас всего 18 единиц здоровья вместо 20."
+}

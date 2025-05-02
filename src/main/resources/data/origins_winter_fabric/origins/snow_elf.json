@@ -6,11 +6,12 @@
     "origins_winter_fabric:snow_elf/height_modifier",
     "origins_winter_fabric:snow_elf/snow_walk",
     "origins_winter_fabric:snow_elf/speed",
-    "origins_winter_fabric:snow_elf/one_allay"
+    "origins_winter_fabric:snow_elf/one_allay",
+    "origins_winter_fabric:snow_elf/snow_arrow"
   ],
   "icon": "origins_winter_fabric:snow_elf",
   "order": 4,
   "impact": 2,
   "name": "Снежный Эльф",
-  "description": "Существа закалённые суровыми погодными условиями зимы. Перебывая в вечной мерзлоте они приспособились к зиме и могут контролировать лёд и холод, обмораживая своих противников."
+  "description": "Существа закалённые суровыми погодными условиями зимы, так же элегантны, как и опасны."
 }

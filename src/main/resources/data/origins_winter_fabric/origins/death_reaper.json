@@ -5,11 +5,12 @@
     "origins_winter_fabric:death_reaper/soul_absorption",
     "origins_winter_fabric:death_reaper/night_speed",
     "origins_winter_fabric:death_reaper/soul_arrow",
-    "origins_winter_fabric:death_reaper/day_weakness"
+    "origins_winter_fabric:death_reaper/day_weakness",
+    "origins_winter_fabric:death_reaper/cold_resistance"
   ],
   "icon": "origins_winter_fabric:death_reaper",
   "order": 13,
   "impact": 2,
   "name": "Жнец",
-  "description": "Проворные существа с кошачьими инстинктами и отличной гибкостью."
+  "description": "Существа из самой преисподни пришедшие в верхний мир. Они, привыкшие забирать чужие души, очень опасны в бою."
 }

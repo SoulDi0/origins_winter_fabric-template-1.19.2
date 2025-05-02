@@ -6,12 +6,13 @@
     "origins_winter_fabric:winter_fairy/reduced_health",
     "origins_winter_fabric:winter_fairy/cold_resistance",
     "origins_winter_fabric:winter_fairy/fairy_flight",
-    "origins_winter_fabric:winter_fairy/fairy_wings"
+    "origins_winter_fabric:winter_fairy/fairy_wings",
+    "origins_winter_fabric:winter_fairy/permanent_resistance"
 
   ],
   "icon": "origins_winter_fabric:winter_fairy",
   "order": 10,
   "impact": 2,
   "name": "Снежная фея",
-  "description": "Миниатюрные огненные существа, обладающие сильной связью с огнём и теплом. Они могут стрелять огненными шарами и имеют устойчивость к высоким температурам."
+  "description": "Миниатюрные зимние существа, обладающие сильной связью с морозом."
 }

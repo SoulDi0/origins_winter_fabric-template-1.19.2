@@ -1,0 +1,27 @@
+{
+  "type": "origins:multiple",
+  "toggle": {
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": "key.origins.secondary_active",
+    "name": "Маскировка",
+    "description": "Позволяет стать невидимым, но потребляет голод"
+  },
+  "invisibility": {
+    "type": "origins:invisibility",
+    "render_armor": false,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  },
+  "hunger": {
+    "type": "origins:exhaust",
+    "interval": 20,
+    "exhaustion": 3,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  }
+}

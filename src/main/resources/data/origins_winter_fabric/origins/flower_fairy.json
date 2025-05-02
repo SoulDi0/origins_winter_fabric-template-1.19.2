@@ -6,11 +6,12 @@
     "origins_winter_fabric:flower_fairy/flower_trap",
     "origins_winter_fabric:flower_fairy/reduced_health",
     "origins_winter_fabric:flower_fairy/flower_regeneration",
-    "origins_winter_fabric:flower_fairy/fairy_wings"
+    "origins_winter_fabric:flower_fairy/fairy_wings",
+    "origins_winter_fabric:flower_fairy/hot_resistance"
   ],
   "icon": "origins_winter_fabric:flower_fairy",
   "order": 9,
   "impact": 2,
   "name": "Цветочная Фея",
-  "description": "Миниатюрные волшебные существа, обладающие сильной связью с растениями и цветами. Они могут ускорять рост растений, создавать цветочные ковры и околдовывать животных своим очарованием."
+  "description": "Миниатюрные волшебные существа, обладающие сильной связью с растениями и цветами."
 }

@@ -25,13 +25,13 @@
   },
   "cooldown": 1200,
   "hud_render": {
-    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-    "bar_index": 7
+    "sprite_location": "origins_winter_fabric:textures/gui/resource_bar_01.png",
+    "bar_index": 5
   },
   "key": {
     "key": "key.origins.secondary_active",
     "continuous": false
   },
   "name": "Теневая занавеса",
-  "description": "Способность накладывает эффект сопротивления, одновременно окутывая врагов тьмой. Перезарядка: 60 секунд"
+  "description": "Из-за того, что они ночные охотники, они смогли приобрести соответствующий навык для охоты, позволяющий им охотиться даже на существ с ночным зрением, они накладывают эффект сопротивления на себя и ослепляют свою добычу, что позволяет им с легкостью одолеть её. Перезарядка: 60 секунд"
 }

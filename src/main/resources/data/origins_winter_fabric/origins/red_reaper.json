@@ -3,11 +3,13 @@
     "origins_winter_fabric:red_reaper/height_modifier",
     "origins_winter_fabric:red_reaper/death_food",
     "origins_winter_fabric:red_reaper/blood_anger",
-    "origins_winter_fabric:red_reaper/red_death"
+    "origins_winter_fabric:red_reaper/red_death",
+    "origins_winter_fabric:red_reaper/hot_resistance",
+    "origins_winter_fabric:red_reaper/more_food"
   ],
   "icon": "origins_winter_fabric:red_reaper",
   "order": 12,
   "impact": 2,
   "name": "Багрянник",
-  "description": "Проворные существа с кошачьими инстинктами и отличной гибкостью."
+  "description": "Существа жаждущие крови, они питаются в сражениях, что делает их непривзайденными бойцами."
 }

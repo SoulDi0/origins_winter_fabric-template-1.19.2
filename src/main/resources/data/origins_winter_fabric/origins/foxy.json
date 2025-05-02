@@ -2,7 +2,11 @@
   "powers": [
     "origins_winter_fabric:foxy/height_modifier",
     "origins_winter_fabric:foxy/poketsteal",
-    "origins_winter_fabric:foxy/meat_diet"
+    "origins_winter_fabric:foxy/meat_diet",
+    "origins_winter_fabric:foxy/hide",
+    "origins_winter_fabric:foxy/lucky",
+    "origins_winter_fabric:foxy/reduced_health",
+    "origins_winter_fabric:foxy/cold_resistance"
   ],
   "icon": "origins_winter_fabric:foxy",
   "order": 16,

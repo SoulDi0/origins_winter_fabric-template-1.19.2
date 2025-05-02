@@ -5,11 +5,12 @@
     "origins_winter_fabric:demon/fireball_shoot",
     "origins_winter_fabric:demon/permanent_regeneration",
     "origins_winter_fabric:demon/water_vulnerability",
-    "origins_winter_fabric:demon/fire_immunity_demon"
+    "origins_winter_fabric:demon/fire_immunity_demon",
+    "origins_winter_fabric:demon/hot_resistance"
   ],
   "icon": "origins_winter_fabric:demon",
   "order": 11,
   "impact": 2,
   "name": "Демон",
-  "description": "существа из глубин ада, неуязвимые к огню и лаве. Обладают способностью поджигать врагов и прекрасно видят в темноте, но уязвимы к воде и холоду."
+  "description": "Существа из глубин ада, им ни по чем огонь и лава."
 }

@@ -20,7 +20,8 @@ public final class Origins_Winter_Fabric implements ModInitializer {
 		return new Identifier(MOD_ID, path);
 	}
 
-	@Override public void onInitialize() {
+	@Override
+	public void onInitialize() {
 		LOG.info("Initializing Origins Winter Fabric …");
 		GeckoLib.initialize();
 
@@ -31,6 +32,8 @@ public final class Origins_Winter_Fabric implements ModInitializer {
 		CommandRegistry.init();
 		FairyWingsCommand.init();
 		WingsRemovalHandler.register();
-		LOG.info("All custom icons, fairy armour & commands registered 🙂");
+
+
+		LOG.info("All custom icons, fairy armour, commands & effects registered 🙂");
 	}
 }

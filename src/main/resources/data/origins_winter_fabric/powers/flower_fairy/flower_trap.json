@@ -31,6 +31,6 @@
     "sprite_location": "origins_winter_fabric:textures/gui/resource_bar_01.png",
     "bar_index": 19
   },
-  "name": "Цветочный капкан",
+  "name": "Венерина челоловка",
   "description": "Создайте ловушку из цветочных шипов, обездвиживающую всех врагов в кубической области радиусом 5 блоков на короткое время."
 }

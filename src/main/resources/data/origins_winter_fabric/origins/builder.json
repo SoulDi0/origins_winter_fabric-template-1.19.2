@@ -2,8 +2,10 @@
   "powers": [
     "origins_winter_fabric:builder/extended_reach",
     "origins_winter_fabric:builder/extra_inventory",
-    "origins_winter_fabric:builder/building_expertise",
-    "origins_winter_fabric:builder/fall_immunity"
+    "origins_winter_fabric:builder/fall_immunity",
+    "origins_winter_fabric:builder/miner_wood_debuff",
+    "origins_winter_fabric:builder/minig_debuff",
+    "origins_winter_fabric:builder/reduced_harvest"
   ],
   "icon": "minecraft:scaffolding",
   "order": 4,

@@ -1,8 +1,9 @@
 {
   "powers": [
-    "origins_winter_fabric:lumberjack/woodcutting_expertise",
     "origins_winter_fabric:lumberjack/axe_durability",
-    "origins_winter_fabric:lumberjack/lumberjack_mining_debuff"
+    "origins_winter_fabric:lumberjack/minig_debuff",
+    "origins_winter_fabric:lumberjack/reduced_harvest",
+    "origins_winter_fabric:lumberjack/woodcutting_expertise"
   ],
   "icon": "minecraft:iron_axe",
   "order": 1,

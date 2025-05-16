@@ -1,11 +1,11 @@
 {
   "type": "origins:fire_projectile",
   "entity_type": "minecraft:arrow",
-  "cooldown": 30,
+  "cooldown": 40,
   "hud_render": {
     "should_render": true,
     "sprite_location": "origins_winter_fabric:textures/gui/resource_bar_01.png",
-    "bar_index": 3
+    "bar_index": 6
   },
   "key": {
     "key": "key.origins.ternary_active",
@@ -15,7 +15,7 @@
   "divergence": 1,
   "sound": "minecraft:entity.player.hurt_freeze",
   "tag": "{CustomPotionEffects:[{Id:2,Amplifier:1,Duration:100}],Color:10940943}",
-  "damage": 6,
-  "name": "Стрела Замораживания",
-  "description": "Выпускает стрелу, которая замораживает противника. Перезарядка: 1.5 секунды."
+  "damage": 4,
+  "name": "Стрела Вечной Мерзлоты",
+  "description": "Вы выпускаете стрелу, которая замораживает противника. Перезарядка: 20 секунд."
 }

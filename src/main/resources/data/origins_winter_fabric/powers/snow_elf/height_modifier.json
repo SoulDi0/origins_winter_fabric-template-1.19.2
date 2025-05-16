@@ -12,6 +12,6 @@
     "type": "origins:execute_command",
     "command": "scale set pehkui:height 1.0 @s"
   },
-  "name": "Высокий",
-  "description": "Вы чуть выше чем человек."
+  "name": "Высокий рост",
+  "description": "Вы как представитель эльфов, выше нежели обыкновенный человек. \n"
 }

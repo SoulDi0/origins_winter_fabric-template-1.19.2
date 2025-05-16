@@ -4,8 +4,8 @@
     "type": "origins:toggle",
     "active_by_default": false,
     "key": "key.origins.secondary_active",
-    "name": "Маскировка",
-    "description": "Позволяет стать невидимым, но потребляет голод"
+    "name": "Второе имя - скрытность",
+    "description": "Ваша проворность позволяет вам мгновенно исчезать из виду, становясь невидимым, но эта способность требует значительных энергетических затрат и вызывает сильный голод."
   },
   "invisibility": {
     "type": "origins:invisibility",

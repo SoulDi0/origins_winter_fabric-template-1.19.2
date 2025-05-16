@@ -1,11 +1,14 @@
 {
   "powers": [
-    "origins_winter_fabric:warrior/scarvenger_warrior"
-
+    "origins_winter_fabric:warrior/double_damage",
+    "origins_winter_fabric:warrior/miner_wood_debuff",
+    "origins_winter_fabric:warrior/minig_debuff",
+    "origins_winter_fabric:warrior/reduced_harvest",
+    "origins_winter_fabric:warrior/sword_durability"
   ],
   "icon": "origins_winter_fabric:white_dwarf",
   "order": 7,
   "impact": 2,
   "name": "Воин",
-  "description": "Закалённые в боях воины, способные одолеть любого кто встанет у них на пути. Суровое прошлое сделало их тела выносливее и могущественее."
+  "description": "Закалённые в боях воины, способные одолеть любого, кто встанет у них на пути."
 }

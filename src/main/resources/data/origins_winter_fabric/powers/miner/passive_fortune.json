@@ -1,0 +1,151 @@
+{
+  "type": "origins:multiple",
+  "ore_break": {
+    "type": "origins:action_on_block_break",
+    "block_condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:block",
+          "block": "minecraft:coal_ore"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:deepslate_coal_ore"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:iron_ore"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:deepslate_iron_ore"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:copper_ore"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:deepslate_copper_ore"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:gold_ore"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:deepslate_gold_ore"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:diamond_ore"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:deepslate_diamond_ore"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:emerald_ore"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:deepslate_emerald_ore"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:lapis_ore"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:deepslate_lapis_ore"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:redstone_ore"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:deepslate_redstone_ore"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:nether_quartz_ore"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:nether_gold_ore"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:gilded_blackstone"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:amethyst_cluster"
+        }
+      ]
+    },
+    "entity_action": {
+      "type": "origins:delay",
+      "ticks": 3,
+      "action": {
+        "type": "origins:if_else",
+        "condition": {
+          "type": "origins:command",
+          "command": "execute if entity @e[type=item,distance=..3,limit=1,sort=nearest,tag=!ore_fortune]",
+          "comparison": ">=",
+          "compare_to": 1
+        },
+        "if_action": {
+          "type": "origins:chance",
+          "chance": 0.05,
+          "action": {
+            "type": "origins:and",
+            "actions": [
+              {
+                "type": "origins:execute_command",
+                "command": "execute at @s run summon item ~ ~ ~ {Item:{id:\"minecraft:stone\",Count:1b},PickupDelay:0,Tags:[\"ore_fortune\"]}"
+              },
+              {
+                "type": "origins:execute_command",
+                "command": "execute at @s run data modify entity @e[type=item,tag=ore_fortune,limit=1,sort=nearest] Item set from entity @e[type=item,distance=..3,limit=1,sort=nearest,tag=!ore_fortune] Item"
+              },
+              {
+                "type": "origins:execute_command",
+                "command": "execute at @s run tag @e[type=item,tag=ore_fortune,limit=1,sort=nearest] remove ore_fortune"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "better_mining": {
+    "type": "origins:modify_break_speed",
+    "block_condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:in_tag",
+          "tag": "minecraft:base_stone_overworld"
+        },
+        {
+          "type": "origins:in_tag",
+          "tag": "minecraft:stone_ore_replaceables"
+        },
+        {
+          "type": "origins:in_tag",
+          "tag": "minecraft:deepslate_ore_replaceables"
+        }
+      ]
+    },
+    "modifier": {
+      "operation": "multiply_base",
+      "value": 0.2
+    }
+  },
+  "name": "Врождённая удача",
+  "description": "При добыче руд есть 50% шанс получить дополнительные предметы, имитируя эффект зачарования Удача I."
+}

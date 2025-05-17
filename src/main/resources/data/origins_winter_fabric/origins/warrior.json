@@ -6,7 +6,7 @@
     "origins_winter_fabric:warrior/reduced_harvest",
     "origins_winter_fabric:warrior/sword_durability"
   ],
-  "icon": "origins_winter_fabric:white_dwarf",
+  "icon": "minecraft:iron_sword",
   "order": 7,
   "impact": 2,
   "name": "Воин",

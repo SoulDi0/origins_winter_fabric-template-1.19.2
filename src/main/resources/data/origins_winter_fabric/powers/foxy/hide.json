@@ -3,9 +3,7 @@
   "toggle": {
     "type": "origins:toggle",
     "active_by_default": false,
-    "key": "key.origins.secondary_active",
-    "name": "Второе имя - скрытность",
-    "description": "Ваша проворность позволяет вам мгновенно исчезать из виду, становясь невидимым, но эта способность требует значительных энергетических затрат и вызывает сильный голод."
+    "key": "key.origins.secondary_active"
   },
   "invisibility": {
     "type": "origins:invisibility",
@@ -23,5 +21,7 @@
       "type": "origins:power_active",
       "power": "*:*_toggle"
     }
-  }
+  },
+  "name": "Скрытность",
+  "description": "Ваша проворность позволяет вам мгновенно исчезать из виду, становясь невидимым, но эта способность требует значительных энергетических затрат и вызывает сильный голод."
 }

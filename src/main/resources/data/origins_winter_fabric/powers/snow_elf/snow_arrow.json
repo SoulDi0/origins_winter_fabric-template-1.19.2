@@ -16,6 +16,6 @@
   "sound": "minecraft:entity.player.hurt_freeze",
   "tag": "{CustomPotionEffects:[{Id:2,Amplifier:1,Duration:100}],Color:10940943}",
   "damage": 4,
-  "name": "Стрела Вечной Мерзлоты",
-  "description": "Вы выпускаете стрелу, которая замораживает противника. Перезарядка: 20 секунд."
+  "name": "Стрела Мерзлоты",
+  "description": "Вы выпускаете стрелу, которая замораживает противника. Перезарядка: 2 секунды."
 }

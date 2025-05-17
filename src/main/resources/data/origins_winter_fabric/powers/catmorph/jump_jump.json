@@ -24,9 +24,7 @@
     "key": {
       "key": "key.origins.primary_active",
       "continuous": false
-    },
-    "name": "Кошачий прыжок",
-    "description": "Активируйте, чтобы получить Прыгучесть II на 20 секунд. Перезарядка: 40 секунд."
+    }
   },
   "cooldown": {
     "type": "origins:cooldown",
@@ -35,5 +33,7 @@
       "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
       "bar_index": 16
     }
-  }
+  },
+  "name": "Кошачий прыжок",
+  "description": "Активируйте, чтобы получить Прыгучесть II на 20 секунд. Перезарядка: 40 секунд. "
 }

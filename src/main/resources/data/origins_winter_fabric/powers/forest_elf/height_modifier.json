@@ -12,6 +12,6 @@
     "type": "origins:execute_command",
     "command": "scale set pehkui:height 1.0 @s"
   },
-  "name": "Высокое тело - высокий дух",
+  "name": "Высокое тело",
   "description": "Вы чуть выше, чем обычный человек."
 }

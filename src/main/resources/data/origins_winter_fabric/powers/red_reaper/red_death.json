@@ -5,7 +5,7 @@
     "actions": [
       {
         "type": "origins:execute_command",
-        "command": "execute at @s run effect give @e[distance=0.1..5,type=!minecraft:player] minecraft:instant_damage 1 1 true"
+        "command": "execute at @s run effect give @e[distance=0.1..5,type=!minecraft:player] minecraft:instant_health 1 1 true"
       },
       {
         "type": "origins:execute_command",
@@ -36,5 +36,5 @@
     "continuous": false
   },
   "name": "Волна смерти",
-  "description": "Высвобождает смертоносную волну багряной энергии, нанося мгновенный урон всем существам в радиусе 5 блоков вокруг вас. Перезарядка: 90 секунд."
+  "description": "Высвобождает смертоносную волну багряной энергии, нанося мгновенный урон нечести в радиусе 5 блоков вокруг вас. Перезарядка: 90 секунд."
 }
